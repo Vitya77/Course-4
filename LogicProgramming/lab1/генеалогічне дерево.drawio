@@ -1,0 +1,172 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Safari/605.1.15" version="28.2.1">
+  <diagram name="Сторінка-1" id="y--4bvJLM-sqph6fV4pJ">
+    <mxGraphModel dx="1351" dy="931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="buMomR4TZ9-HvjBERClv-1" value="Машкара Василь Васильович" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="60" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-2" value="Машкара Катерина Ігорівна" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="60" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-4" value="Машкара Любов Василівна" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-5" value="Машкара Михайло Васильович" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-6" value="Машкара Марія Григорівна" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="190" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-7" value="Машкара Наталя Михайлівна" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="320" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-8" value="Стегней Тетяна Михайлівна" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="320" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-9" value="Стегней Іван Іванович" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="320" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-10" value="Стегней Віктор Іванович" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="430" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-11" value="Стегней Олександр Іванович" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="430" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-12" value="Стегней Василь Васильович" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="190" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-13" value="Стегней Іван Васильович" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="190" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-14" value="Стегней Василь Ігорович" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="60" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-15" value="Стегней Ганна Михайлівна" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="190" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-16" value="Стегней Євген Іванович" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="320" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-17" value="Стегней Катерина Михайлівна" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="320" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-18" value="Стегней Дмитро Євгенович" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="430" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-19" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="buMomR4TZ9-HvjBERClv-1" target="buMomR4TZ9-HvjBERClv-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="150" as="sourcePoint" />
+            <mxPoint x="300" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="160" />
+              <mxPoint x="210" y="160" />
+              <mxPoint x="250" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="buMomR4TZ9-HvjBERClv-4" target="buMomR4TZ9-HvjBERClv-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="340" as="sourcePoint" />
+            <mxPoint x="500" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="160" />
+              <mxPoint x="210" y="160" />
+              <mxPoint x="250" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-21" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="buMomR4TZ9-HvjBERClv-5" target="buMomR4TZ9-HvjBERClv-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="340" as="sourcePoint" />
+            <mxPoint x="580" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="290" />
+              <mxPoint x="380" y="290" />
+              <mxPoint x="430" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="buMomR4TZ9-HvjBERClv-7" target="buMomR4TZ9-HvjBERClv-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="340" as="sourcePoint" />
+            <mxPoint x="580" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="290" />
+              <mxPoint x="380" y="290" />
+              <mxPoint x="430" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-24" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="buMomR4TZ9-HvjBERClv-8" target="buMomR4TZ9-HvjBERClv-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="370" as="sourcePoint" />
+            <mxPoint x="610" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="410" />
+              <mxPoint x="550" y="410" />
+              <mxPoint x="590" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-25" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="buMomR4TZ9-HvjBERClv-10" target="buMomR4TZ9-HvjBERClv-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="370" as="sourcePoint" />
+            <mxPoint x="610" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="410" />
+              <mxPoint x="550" y="410" />
+              <mxPoint x="590" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="buMomR4TZ9-HvjBERClv-15" target="buMomR4TZ9-HvjBERClv-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="370" as="sourcePoint" />
+            <mxPoint x="740" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="290" />
+              <mxPoint x="890" y="290" />
+              <mxPoint x="830" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="buMomR4TZ9-HvjBERClv-16" target="buMomR4TZ9-HvjBERClv-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="370" as="sourcePoint" />
+            <mxPoint x="740" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="290" />
+              <mxPoint x="830" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-28" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="buMomR4TZ9-HvjBERClv-16" target="buMomR4TZ9-HvjBERClv-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="370" as="sourcePoint" />
+            <mxPoint x="740" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="buMomR4TZ9-HvjBERClv-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="390" as="sourcePoint" />
+            <mxPoint x="740" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="buMomR4TZ9-HvjBERClv-14" target="buMomR4TZ9-HvjBERClv-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="370" as="sourcePoint" />
+            <mxPoint x="740" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="buMomR4TZ9-HvjBERClv-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="buMomR4TZ9-HvjBERClv-14" target="buMomR4TZ9-HvjBERClv-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="370" as="sourcePoint" />
+            <mxPoint x="740" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
