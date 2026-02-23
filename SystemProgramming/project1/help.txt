@@ -1,0 +1,167 @@
+==============================================================================
+              x86-32 Assembly Code Editor - User Guide
+==============================================================================
+
+1. OVERVIEW
+-----------
+This application is a two-pass x86-32 assembler with an integrated code
+editor. It supports NASM-like syntax and generates machine code listings
+with symbol tables. The editor provides syntax highlighting, line numbers,
+find/replace, undo/redo, and keyboard shortcuts.
+
+
+2. KEYBOARD SHORTCUTS
+---------------------
+  File:
+    Ctrl+N          New file
+    Ctrl+O          Open file
+    Ctrl+S          Save file
+    Ctrl+Shift+S    Save As
+
+  Edit:
+    Ctrl+Z          Undo
+    Ctrl+Y          Redo
+    Ctrl+X          Cut
+    Ctrl+C          Copy
+    Ctrl+V          Paste
+    Ctrl+A          Select All
+    Ctrl+F          Find
+    Ctrl+H          Find & Replace
+    Ctrl+G          Go to Line
+
+  Build:
+    F5              Assemble current file
+    F6              Show listing output
+    F7              Clear output panel
+
+  Help:
+    F1              Show this help
+
+
+3. SUPPORTED INSTRUCTIONS
+-------------------------
+  Data Movement:   MOV, XCHG, LEA, MOVZX, MOVSX, PUSH, POP
+  ALU (Arithmetic): ADD, SUB, ADC, SBB, INC, DEC, NEG
+  ALU (Logical):   AND, OR, XOR, NOT, TEST, CMP
+  Multiply/Divide: MUL, IMUL, DIV, IDIV
+  Shift/Rotate:    SHL, SHR, SAR, ROL, ROR, RCL, RCR
+  Control Flow:    JMP, Jcc (JE/JNE/JG/JL/JGE/JLE/JA/JB/JAE/JBE/...),
+                   CALL, RET, LOOP, LOOPE, LOOPNE, INT
+  Stack:           PUSH, POP, PUSHAD, POPAD, LEAVE
+  String:          MOVSB, MOVSD, STOSB, STOSD, LODSB, LODSD
+                   (with REP/REPE/REPNE prefixes)
+  Flags:           CLC, STC, CLD, STD, CLI, STI, CMC
+  System:          NOP, HLT, INT, INT3, IRET
+
+
+4. ADDRESSING MODES
+-------------------
+All 6 fundamental x86 addressing modes are supported:
+
+  1. Register:           MOV EAX, EBX
+  2. Immediate:          MOV EAX, 42
+  3. Direct Memory:      MOV EAX, [my_var]
+  4. Register Indirect:  MOV EAX, [EBX]
+  5. Base+Displacement:  MOV EAX, [EBP+8]
+  6. SIB (Base+Index*Scale+Disp): MOV EAX, [EBX+ECX*4+8]
+
+
+5. DATA DIRECTIVES
+------------------
+  DB  value, ...   Define byte(s). Supports strings: DB 'hello', 0
+  DW  value, ...   Define word(s) (16-bit)
+  DD  value, ...   Define doubleword(s) (32-bit)
+  EQU value        Define named constant (no memory allocated)
+  TIMES n DB val   Repeat data definition n times
+  RESB/RESW/RESD   Reserve uninitialized space
+  SECTION name     Declare a section (.text, .data, .bss)
+  ORG address      Set origin address
+
+
+6. NUMBER FORMATS
+-----------------
+  Decimal:     42, 100, -5
+  Hexadecimal: 0xFF, 0x1A, 0FFh, 1Ah
+  Binary:      0b1010, 0b11001100
+  Octal:       77o, 77q
+
+
+7. SIZE OVERRIDES
+-----------------
+When the assembler cannot determine operand size from context
+(e.g., memory-to-immediate operations), use size prefixes:
+
+  MOV BYTE [ESI], 0x41      ; 8-bit store
+  MOV WORD [EBX], 1234h     ; 16-bit store
+  MOV DWORD [EBP-4], 0      ; 32-bit store
+  INC BYTE [ESI]             ; 8-bit increment
+  ADD DWORD [my_var], 1      ; 32-bit add
+
+
+8. LABELS AND SYMBOLS
+---------------------
+Labels are defined with a trailing colon and can be used as jump
+targets or memory references:
+
+  my_label:
+      MOV EAX, 1
+      JMP my_label           ; Jump to label
+      MOV EAX, [my_label]    ; Use label as address
+
+  Constants defined with EQU:
+      MY_CONST EQU 42
+      MOV EAX, MY_CONST      ; Uses the constant value
+
+
+9. LISTING FORMAT
+-----------------
+The assembly listing (F6) shows for each line:
+  - Line number
+  - Memory address (hex)
+  - Generated machine code bytes (hex)
+  - Original source code
+  - Symbol table at the end
+
+Example listing output:
+    1  00000000  B8 64000000          MOV EAX, 100
+    2  00000005  BB C8000000          MOV EBX, 200
+    3  0000000A  89 C1                MOV ECX, EAX
+
+
+10. ERROR MESSAGES
+------------------
+Common error messages:
+  - "Undefined symbol: X"   - Label X is not defined anywhere
+  - "Invalid MOV operands"  - Operand combination not supported
+  - "Size mismatch"         - Estimated vs actual instruction size differs
+  - "LOOP target out of range" - Target too far for 8-bit relative jump
+
+Click on error messages in the output panel to jump to the error line
+in the editor. Error lines are highlighted in red.
+
+
+11. COMMENTS
+------------
+Comments start with semicolon (;) and extend to end of line:
+  MOV EAX, 1    ; This is a comment
+  ; This entire line is a comment
+
+
+12. SYSTEM CALLS (INT 0x80)
+---------------------------
+The assembler supports INT instruction for system calls.
+Linux x86-32 syscall convention:
+  EAX = syscall number
+  EBX = first argument
+  ECX = second argument
+  EDX = third argument
+  ESI = fourth argument
+  EDI = fifth argument
+
+Example (write to stdout):
+  MOV EAX, 4          ; sys_write
+  MOV EBX, 1          ; stdout
+  LEA ECX, [message]  ; buffer
+  MOV EDX, 13         ; length
+  INT 0x80
+==============================================================================
