@@ -3,9 +3,9 @@ from abc import abstractmethod
 from collections.abc import Generator
 from typing import List
 
-from scheduler.core.action import Action
-from scheduler.core.node_response import NodeResponse
-from scheduler.core.mailbox import Mailbox
+from DistributedSystems.lab4.scheduler.core.action import Action
+from DistributedSystems.lab4.scheduler.core.node_response import NodeResponse
+from DistributedSystems.lab4.scheduler.core.mailbox import Mailbox
 
 
 class AbstractNode(Generator):

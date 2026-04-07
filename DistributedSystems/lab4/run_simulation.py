@@ -1,5 +1,5 @@
-from scheduler.core.observer import Observer
-from scheduler.implementation.current_network import CurrentNetwork
+from DistributedSystems.lab4.scheduler.core.observer import Observer
+from DistributedSystems.lab4.scheduler.implementation.current_network import CurrentNetwork
 
 # NETWORK_CLASS should be set to the current implementation network class of the AbstractNetwork class
 NETWORK_CLASS = CurrentNetwork

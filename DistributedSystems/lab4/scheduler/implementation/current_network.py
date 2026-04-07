@@ -1,8 +1,8 @@
 import uuid
 from typing import List, Dict
 
-from scheduler.abstract.abstract_network import AbstractNetwork
-from scheduler.implementation.node import Node
+from DistributedSystems.lab4.scheduler.abstract.abstract_network import AbstractNetwork
+from DistributedSystems.lab4.scheduler.implementation.node import Node
 
 
 class CurrentNetwork(AbstractNetwork):

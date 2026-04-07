@@ -6,9 +6,9 @@ from random import choices, choice
 from typing import List
 from uuid import UUID
 
-from scheduler.abstract.abstract_node import AbstractNode
-from scheduler.core.external_request import ExternalRequest
-from scheduler.settings.network_settings import settings
+from DistributedSystems.lab4.scheduler.abstract.abstract_node import AbstractNode
+from DistributedSystems.lab4.scheduler.core.external_request import ExternalRequest
+from DistributedSystems.lab4.scheduler.settings.network_settings import settings
 
 
 class ExternalRequestGenerator:

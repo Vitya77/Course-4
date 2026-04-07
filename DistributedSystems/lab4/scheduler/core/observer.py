@@ -2,10 +2,10 @@ import uuid
 from time import sleep
 from timeit import default_timer
 
-from scheduler.abstract.abstract_network import AbstractNetwork
-from scheduler.abstract.abstract_node import AbstractNode
-from scheduler.core.action import Action
-from scheduler.settings.network_settings import settings
+from DistributedSystems.lab4.scheduler.abstract.abstract_network import AbstractNetwork
+from DistributedSystems.lab4.scheduler.abstract.abstract_node import AbstractNode
+from DistributedSystems.lab4.scheduler.core.action import Action
+from DistributedSystems.lab4.scheduler.settings.network_settings import settings
 
 
 class Observer:

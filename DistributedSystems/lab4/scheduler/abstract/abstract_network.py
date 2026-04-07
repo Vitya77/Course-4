@@ -1,10 +1,10 @@
 from random import choice
 from typing import List
 
-from scheduler.abstract.abstract_node import AbstractNode
-from scheduler.core.action import Action
-from scheduler.core.external_request_generator import ExternalRequestGenerator
-from scheduler.settings.network_settings import settings
+from DistributedSystems.lab4.scheduler.abstract.abstract_node import AbstractNode
+from DistributedSystems.lab4.scheduler.core.action import Action
+from DistributedSystems.lab4.scheduler.core.external_request_generator import ExternalRequestGenerator
+from DistributedSystems.lab4.scheduler.settings.network_settings import settings
 
 
 class AbstractNetwork:
