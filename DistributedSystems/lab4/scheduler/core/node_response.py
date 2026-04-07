@@ -1,6 +1,6 @@
 from typing import List
 
-from DistributedSystems.lab4.scheduler.core.action import Action
+from scheduler.core.action import Action
 
 
 class NodeResponse:

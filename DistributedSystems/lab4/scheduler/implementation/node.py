@@ -3,10 +3,10 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from DistributedSystems.lab4.scheduler.abstract.abstract_node import AbstractNode
-from DistributedSystems.lab4.scheduler.core.action import Action
-from DistributedSystems.lab4.scheduler.core.mailbox import Mailbox
-from DistributedSystems.lab4.scheduler.core.node_response import NodeResponse
+from scheduler.abstract.abstract_node import AbstractNode
+from scheduler.core.action import Action
+from scheduler.core.mailbox import Mailbox
+from scheduler.core.node_response import NodeResponse
 
 
 @dataclass
