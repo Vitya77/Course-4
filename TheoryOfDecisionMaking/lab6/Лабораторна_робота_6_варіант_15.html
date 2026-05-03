@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <title>Лабораторна робота №6, варіант 15</title>
+  <style>
+    body {
+      font-family: "Times New Roman", serif;
+      font-size: 14pt;
+      line-height: 1.35;
+      margin: 2cm;
+    }
+    h1, h2, h3 {
+      text-align: center;
+      margin: 0.3em 0;
+    }
+    h1 { font-size: 18pt; }
+    h2 { font-size: 16pt; }
+    h3 { font-size: 14pt; }
+    p { text-align: justify; margin: 0.35em 0; }
+    .center { text-align: center; }
+    .section-title {
+      font-weight: bold;
+      margin-top: 1em;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0.6em 0 1em;
+      font-size: 12pt;
+    }
+    th, td {
+      border: 1px solid #000;
+      padding: 4px 6px;
+      vertical-align: top;
+    }
+    th {
+      text-align: center;
+      font-weight: bold;
+    }
+    .code {
+      font-family: "Courier New", monospace;
+      font-size: 11pt;
+      white-space: pre-wrap;
+      border: 1px solid #000;
+      padding: 10px;
+      margin-top: 0.5em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Звіт</h1>
+  <h2>Лабораторна робота №6</h2>
+  <h3>Студента ПМІ-44</h3>
+  <h3>Стегнея Віктора</h3>
+  <h3>Варіант 15</h3>
+
+  <p class="section-title">Тема роботи</p>
+  <p>Раціональний вибір параметрів складної системи з використанням моделі функціональних залежностей, побудованої в лабораторній роботі №4.</p>
+
+  <p class="section-title">Мета роботи</p>
+  <p>Сформувати функцію <b>Φ</b> на основі результатів лабораторної роботи №4 та використати її в задачі пошуку допустимих точок і побудови множини Парето для варіанту 15 лабораторної роботи №6.</p>
+
+  <p class="section-title">Умова завдання</p>
+  <p>Для варіанту 15 потрібно дослідити систему виду <b>y<sub>i</sub>[q<sub>1</sub>] − Φ<sub>i</sub>(x<sub>1</sub>, x<sub>2</sub>[q<sub>1</sub>], x<sub>3</sub>[q<sub>3</sub>]) = 0</b>, де коригуються лише межі для <b>y</b> та <b>x<sub>1</sub></b>. Для поточної реалізації у файлі <b>lab6.py</b> функція <b>Φ</b> побудована за коефіцієнтами з лабораторної роботи №4, а допустимі точки перебираються на сітках заданих змінних.</p>
+
+  <p class="section-title">Вихідні дані</p>
+  <p>У лабораторній роботі №4 була побудована мультиплікативна модель на основі перетворень <b>log1p / expm1</b>. До лабораторної роботи №6 перенесено коефіцієнти <b>λ</b>, матриці <b>A</b>, матрицю <b>C</b> та параметри масштабування базисних функцій. Це дозволило сформувати робочу функцію прогнозування <b>Φ(x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>)</b> без повної перебудови коду.</p>
+
+  <table>
+    <tr>
+      <th>Параметр</th>
+      <th>Значення</th>
+    </tr>
+    <tr>
+      <td>Розмірність x<sub>1</sub></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Розмірність x<sub>2</sub></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Розмірність x<sub>3</sub></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Кількість виходів y</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Початкові межі y</td>
+      <td>[0; 1] для кожного критерію</td>
+    </tr>
+    <tr>
+      <td>Початкові межі x<sub>1</sub></td>
+      <td>[0; 2] для кожної координати</td>
+    </tr>
+    <tr>
+      <td>Початкові межі x<sub>2</sub></td>
+      <td>[0; 2] для кожної координати</td>
+    </tr>
+    <tr>
+      <td>Початкові межі x<sub>3</sub></td>
+      <td>[0; 1] для кожної координати</td>
+    </tr>
+    <tr>
+      <td>Крок по x<sub>1</sub></td>
+      <td>0,05</td>
+    </tr>
+    <tr>
+      <td>Крок по x<sub>2</sub></td>
+      <td>1,0</td>
+    </tr>
+    <tr>
+      <td>Крок по x<sub>3</sub></td>
+      <td>1,0</td>
+    </tr>
+  </table>
+
+  <p class="section-title">Хід роботи</p>
+  <p><b>1.</b> Із лабораторної роботи №4 було взято результати відновлення моделі: коефіцієнти <b>lambda_x1</b>, <b>lambda_x2</b>, <b>lambda_x3</b>, матриці <b>A1</b>, <b>A2</b>, <b>A3</b>, матрицю <b>C</b> та правила нормування базисних функцій.</p>
+  <p><b>2.</b> У функції <b>Phi(x1, x2, x3)</b> послідовно обчислювались логарифмічні частинні функції для трьох груп змінних, після чого формувався підсумковий прогноз чотирьох вихідних характеристик.</p>
+  <p><b>3.</b> Для кожної комбінації значень на сітці перевірялась належність отриманого вектора <b>Φ</b> до допустимих меж <b>Y_BOUNDS</b>. Якщо умова виконувалась, точка вважалась допустимою.</p>
+  <p><b>4.</b> Після формування множини допустимих точок будувалась множина Парето за правилом недомінування. У поточних межах алгоритм знаходить допустимі точки вже на першій ітерації, тому подальше розширення меж не виконується.</p>
+
+  <p class="section-title">Результати обчислень</p>
+  <table>
+    <tr>
+      <th>Показник</th>
+      <th>Значення</th>
+    </tr>
+    <tr>
+      <td>Номер ітерації, на якій знайдено розв’язок</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Δy</td>
+      <td>0,0</td>
+    </tr>
+    <tr>
+      <td>Δx<sub>1</sub></td>
+      <td>0,0</td>
+    </tr>
+    <tr>
+      <td>Кількість точок сітки для x<sub>1</sub></td>
+      <td>1681</td>
+    </tr>
+    <tr>
+      <td>Кількість точок сітки для x<sub>2</sub></td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>Кількість точок сітки для x<sub>3</sub></td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Кількість допустимих точок</td>
+      <td>23227</td>
+    </tr>
+    <tr>
+      <td>Кількість точок множини Парето</td>
+      <td>8</td>
+    </tr>
+  </table>
+
+  <p>Отримані точки множини Парето для поточних меж:</p>
+  <table>
+    <tr>
+      <th>№</th>
+      <th>x1</th>
+      <th>x2</th>
+      <th>x3</th>
+      <th>Φ(x)</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>[0.55; 1.55]</td>
+      <td>[0.00; 0.00]</td>
+      <td>[1.00; 1.00; 0.00]</td>
+      <td>[0.449364; 0.999641; 0.169000; 0.168543]</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>[0.65; 1.60]</td>
+      <td>[0.00; 1.00]</td>
+      <td>[0.00; 0.00; 0.00]</td>
+      <td>[0.251868; 0.999752; 0.045786; 0.033737]</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>[0.95; 1.50]</td>
+      <td>[0.00; 2.00]</td>
+      <td>[0.00; 1.00; 0.00]</td>
+      <td>[0.569970; 0.974227; 0.347824; 0.247095]</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>[0.75; 1.50]</td>
+      <td>[0.00; 2.00]</td>
+      <td>[1.00; 1.00; 0.00]</td>
+      <td>[0.547494; 0.998647; 0.343448; 0.258355]</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>[0.95; 1.45]</td>
+      <td>[0.00; 2.00]</td>
+      <td>[1.00; 1.00; 0.00]</td>
+      <td>[0.564018; 0.858886; 0.377103; 0.263051]</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>[0.15; 1.55]</td>
+      <td>[1.00; 2.00]</td>
+      <td>[0.00; 1.00; 0.00]</td>
+      <td>[0.406249; 0.998878; 0.233182; 0.222650]</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>[0.95; 1.50]</td>
+      <td>[1.00; 2.00]</td>
+      <td>[1.00; 1.00; 0.00]</td>
+      <td>[0.552481; 0.979760; 0.396972; 0.271670]</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>[0.95; 1.55]</td>
+      <td>[2.00; 2.00]</td>
+      <td>[1.00; 1.00; 0.00]</td>
+      <td>[0.342407; 0.871969; 0.420684; 0.283129]</td>
+    </tr>
+  </table>
+
+  <p class="section-title">Аналіз результатів</p>
+  <p>У поточній постановці задачі допустимі точки були знайдені вже при початкових межах, тобто без додаткового розширення обмежень. Саме тому алгоритм завершився на ітерації 0. Зміна початкових меж закономірно змінює кількість допустимих точок, а отже і склад множини Парето, оскільки вона будується лише серед тих точок, що задовольняють обмеження.</p>
+  <p>Використання коефіцієнтів із лабораторної роботи №4 дозволило безпосередньо сформувати функцію <b>Φ</b> та застосувати її в лабораторній роботі №6. За обраних меж отримано 23227 допустимих точок і 8 недомінованих рішень, які утворюють множину Парето для поточної сітки перебору.</p>
+
+  <p class="section-title">Код найважливіших фрагментів</p>
+  <div class="code">def Phi(x1, x2, x3):
+    x1 = np.asarray(x1, dtype=float)
+    x2 = np.asarray(x2, dtype=float)
+    x3 = np.asarray(x3, dtype=float)
+
+    psi1_log = calculate_log_psi_single(LAMBDA_X1, x1, "laguerre", X1_SCALERS)
+    psi2_log = calculate_log_psi_single(LAMBDA_X2, x2, "hermite", X2_SCALERS)
+    psi3_log = calculate_log_psi_single(LAMBDA_X3, x3, "shifted_legendre", X3_SCALERS)
+
+    phi1_log = safe_log1p(np.expm1(psi1_log)) @ A1
+    phi2_log = safe_log1p(np.expm1(psi2_log)) @ A2
+    phi3_log = safe_log1p(np.expm1(psi3_log)) @ A3
+
+    final_log = np.array([
+        C_MATRIX[0, i] * phi1_log[i]
+        + C_MATRIX[1, i] * phi2_log[i]
+        + C_MATRIX[2, i] * phi3_log[i]
+        for i in range(C_MATRIX.shape[1])
+    ], dtype=float)
+
+    return np.expm1(final_log)</div>
+
+  <div class="code">for iteration in range(MAX_ITERATIONS + 1):
+    delta_y = iteration * DELTA_Y_STEP
+    delta_x1 = iteration * DELTA_X1_STEP
+
+    corrected_y_bounds = Y_BOUNDS.copy()
+    corrected_y_bounds[:, 0] -= delta_y
+    corrected_y_bounds[:, 1] += delta_y
+
+    corrected_x1_bounds = X1_BOUNDS.copy()
+    corrected_x1_bounds[:, 0] -= delta_x1
+    corrected_x1_bounds[:, 1] += delta_x1
+
+    x1_grid = make_grid(corrected_x1_bounds, STEP_X1)
+    feasible_points = []
+
+    for x1 in x1_grid:
+        for x2 in x2_grid:
+            for x3 in x3_grid:
+                phi = Phi(x1, x2, x3)
+                if is_inside_bounds(phi, corrected_y_bounds):
+                    feasible_points.append({"x1": x1, "x2": x2, "x3": x3, "phi": phi})</div>
+
+  <p class="section-title">Висновок</p>
+  <p>У лабораторній роботі №6 для варіанту 15 було використано результати лабораторної роботи №4 для побудови функції <b>Φ</b>, після чого виконано пошук допустимих точок і множини Парето. Поставлену задачу розв’язано, функцію <b>Φ</b> успішно інтегровано в код лабораторної роботи №6, а для заданих меж отримано множину Парето з 8 точок.</p>
+</body>
+</html>
