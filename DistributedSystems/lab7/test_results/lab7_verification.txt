@@ -1,0 +1,6 @@
+node=1 expected_distance=0 actual_distance=0 expected_parent=None actual_parent=None status=OK
+node=2 expected_distance=7 actual_distance=7 expected_parent=1 actual_parent=1 status=OK
+node=3 expected_distance=9 actual_distance=9 expected_parent=1 actual_parent=1 status=OK
+node=4 expected_distance=20 actual_distance=20 expected_parent=3 actual_parent=3 status=OK
+node=5 expected_distance=20 actual_distance=20 expected_parent=6 actual_parent=6 status=OK
+node=6 expected_distance=11 actual_distance=11 expected_parent=3 actual_parent=3 status=OK

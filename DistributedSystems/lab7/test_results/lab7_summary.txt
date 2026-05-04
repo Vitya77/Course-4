@@ -1,0 +1,6 @@
+node=1 distance=0 parent=None initial_tree_parent=None rounds=5
+node=2 distance=7 parent=1 initial_tree_parent=1 rounds=5
+node=6 distance=11 parent=3 initial_tree_parent=1 rounds=5
+node=4 distance=20 parent=3 initial_tree_parent=2 rounds=5
+node=3 distance=9 parent=1 initial_tree_parent=1 rounds=5
+node=5 distance=20 parent=6 initial_tree_parent=6 rounds=5

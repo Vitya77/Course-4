@@ -1,0 +1,208 @@
+node=1 dist=0 parent=None initiates tree construction and sets dist=0
+node=6 dist=inf parent=1 discovers tree parent 1 and forwards to [3, 5]
+node=2 dist=inf parent=1 discovers tree parent 1 and forwards to [3, 4]
+node=5 dist=inf parent=6 discovers tree parent 6 and forwards to [4]
+node=3 dist=inf parent=1 discovers tree parent 1 and forwards to [2, 4, 6]
+node=4 dist=inf parent=2 discovers tree parent 2 and forwards to [3, 5]
+node=3 dist=inf parent=1 rejects duplicate tree discover from 6
+node=3 dist=inf parent=1 rejects duplicate tree discover from 2
+node=3 dist=inf parent=1 rejects duplicate tree discover from 4
+node=5 dist=inf parent=6 rejects duplicate tree discover from 4
+node=2 dist=inf parent=1 rejects duplicate tree discover from 3
+node=4 dist=inf parent=2 rejects duplicate tree discover from 5
+node=6 dist=inf parent=1 rejects duplicate tree discover from 3
+node=2 dist=inf parent=1 waits for tree acknowledgements from [4]
+node=5 dist=inf parent=6 subtree completed, confirms to parent 6
+node=6 dist=inf parent=1 waits for tree acknowledgements from [5]
+node=3 dist=inf parent=1 waits for tree acknowledgements from [4, 6]
+node=3 dist=inf parent=1 waits for tree acknowledgements from [4]
+node=6 dist=inf parent=1 subtree completed, confirms to parent 1
+node=4 dist=inf parent=2 rejects duplicate tree discover from 3
+node=4 dist=inf parent=2 waits for tree acknowledgements from [5]
+node=4 dist=inf parent=2 subtree completed, confirms to parent 2
+node=2 dist=inf parent=1 subtree completed, confirms to parent 1
+node=1 dist=0 parent=None waits for tree acknowledgements from [2, 3]
+node=1 dist=0 parent=None waits for tree acknowledgements from [3]
+node=3 dist=inf parent=1 subtree completed, confirms to parent 1
+node=1 dist=0 parent=None initial spanning tree built; starts Merlin-Segal rounds
+node=1 dist=0 parent=None starts round 1 with dist=0
+node=6 dist=inf parent=1 joins round 1 with current parent 1 and dist=inf
+node=6 dist=inf parent=1 round=1: improves distance via 1 to 14
+node=6 dist=inf parent=1 round=1: propagates distance 14 to [3, 5]
+node=3 dist=inf parent=1 joins round 1 with current parent 1 and dist=inf
+node=3 dist=inf parent=1 round=1: improves distance via 1 to 9
+node=3 dist=inf parent=1 round=1: propagates distance 9 to [2, 4, 6]
+node=6 dist=inf parent=1 round=1: improves distance via 3 to 11
+node=4 dist=inf parent=2 joins round 1 with current parent 2 and dist=inf
+node=4 dist=inf parent=2 round=1: improves distance via 3 to 20
+node=3 dist=inf parent=1 round=1: receives down from 6 with candidate 16
+node=2 dist=inf parent=1 joins round 1 with current parent 1 and dist=inf
+node=2 dist=inf parent=1 round=1: improves distance via 1 to 7
+node=2 dist=inf parent=1 round=1: propagates distance 7 to [3, 4]
+node=4 dist=inf parent=2 round=1: receives down from 2 with candidate 22
+node=4 dist=inf parent=2 round=1: propagates distance 20 to [3, 5]
+node=5 dist=inf parent=6 joins round 1 with current parent 6 and dist=inf
+node=5 dist=inf parent=6 round=1: improves distance via 6 to 23
+node=5 dist=inf parent=6 round=1: propagates distance 23 to [4]
+node=4 dist=inf parent=2 round=1: receives down from 5 with candidate 29
+node=4 dist=20 parent=3 finishes round 1: dist inf -> 20, parent 2 -> 3
+node=3 dist=inf parent=1 round=1: receives down from 2 with candidate 17
+node=5 dist=inf parent=6 round=1: receives down from 4 with candidate 26
+node=5 dist=23 parent=6 finishes round 1: dist inf -> 23, parent 6 -> 6
+node=2 dist=inf parent=1 round=1: receives down from 3 with candidate 19
+node=6 dist=inf parent=1 round=1: receives up from 5 with candidate 32
+node=6 dist=11 parent=3 finishes round 1: dist inf -> 11, parent 1 -> 3
+node=1 dist=0 parent=None round=1: receives up from 6 with candidate 25
+node=3 dist=inf parent=1 round=1: receives down from 4 with candidate 31
+node=3 dist=9 parent=1 finishes round 1: dist inf -> 9, parent 1 -> 1
+node=2 dist=inf parent=1 round=1: receives up from 4 with candidate 35
+node=2 dist=7 parent=1 finishes round 1: dist inf -> 7, parent 1 -> 1
+node=1 dist=0 parent=None round=1: receives up from 3 with candidate 18
+node=1 dist=0 parent=None round=1: receives up from 2 with candidate 14
+node=1 dist=0 parent=None finishes round 1: dist 0 -> 0, parent None -> None
+node=1 dist=0 parent=None starts round 2 with dist=0
+node=2 dist=7 parent=1 joins round 2 with current parent 1 and dist=7
+node=2 dist=7 parent=1 round=2: receives down from 1 with candidate 7
+node=2 dist=7 parent=1 round=2: propagates distance 7 to [3, 4]
+node=6 dist=11 parent=3 joins round 2 with current parent 3 and dist=11
+node=6 dist=11 parent=3 round=2: receives down from 1 with candidate 14
+node=4 dist=20 parent=3 joins round 2 with current parent 3 and dist=20
+node=4 dist=20 parent=3 round=2: receives down from 2 with candidate 22
+node=3 dist=9 parent=1 joins round 2 with current parent 1 and dist=9
+node=3 dist=9 parent=1 round=2: receives down from 1 with candidate 9
+node=3 dist=9 parent=1 round=2: propagates distance 9 to [2, 4, 6]
+node=6 dist=11 parent=3 round=2: receives down from 3 with candidate 11
+node=6 dist=11 parent=3 round=2: propagates distance 11 to [1, 5]
+node=1 dist=0 parent=None round=2: receives down from 6 with candidate 25
+node=4 dist=20 parent=3 round=2: receives down from 3 with candidate 20
+node=4 dist=20 parent=3 round=2: propagates distance 20 to [2, 5]
+node=3 dist=9 parent=1 round=2: receives down from 2 with candidate 17
+node=5 dist=23 parent=6 joins round 2 with current parent 6 and dist=23
+node=5 dist=23 parent=6 round=2: improves distance via 6 to 20
+node=5 dist=23 parent=6 round=2: propagates distance 20 to [4]
+node=4 dist=20 parent=3 round=2: receives down from 5 with candidate 26
+node=4 dist=20 parent=3 finishes round 2: dist 20 -> 20, parent 3 -> 3
+node=5 dist=23 parent=6 round=2: receives down from 4 with candidate 26
+node=5 dist=20 parent=6 finishes round 2: dist 23 -> 20, parent 6 -> 6
+node=3 dist=9 parent=1 round=2: receives up from 4 with candidate 31
+node=6 dist=11 parent=3 round=2: receives up from 5 with candidate 29
+node=6 dist=11 parent=3 finishes round 2: dist 11 -> 11, parent 3 -> 3
+node=3 dist=9 parent=1 round=2: receives up from 6 with candidate 13
+node=3 dist=9 parent=1 finishes round 2: dist 9 -> 9, parent 1 -> 1
+node=1 dist=0 parent=None round=2: receives up from 3 with candidate 18
+node=2 dist=7 parent=1 round=2: receives down from 3 with candidate 19
+node=2 dist=7 parent=1 round=2: receives down from 4 with candidate 35
+node=2 dist=7 parent=1 finishes round 2: dist 7 -> 7, parent 1 -> 1
+node=1 dist=0 parent=None round=2: receives up from 2 with candidate 14
+node=1 dist=0 parent=None finishes round 2: dist 0 -> 0, parent None -> None
+node=1 dist=0 parent=None starts round 3 with dist=0
+node=3 dist=9 parent=1 joins round 3 with current parent 1 and dist=9
+node=3 dist=9 parent=1 round=3: receives down from 1 with candidate 9
+node=3 dist=9 parent=1 round=3: propagates distance 9 to [2, 4, 6]
+node=4 dist=20 parent=3 joins round 3 with current parent 3 and dist=20
+node=4 dist=20 parent=3 round=3: receives down from 3 with candidate 20
+node=4 dist=20 parent=3 round=3: propagates distance 20 to [2, 5]
+node=2 dist=7 parent=1 joins round 3 with current parent 1 and dist=7
+node=2 dist=7 parent=1 round=3: receives down from 1 with candidate 7
+node=2 dist=7 parent=1 round=3: propagates distance 7 to [3, 4]
+node=3 dist=9 parent=1 round=3: receives down from 2 with candidate 17
+node=5 dist=20 parent=6 joins round 3 with current parent 6 and dist=20
+node=5 dist=20 parent=6 round=3: receives down from 4 with candidate 26
+node=4 dist=20 parent=3 round=3: receives down from 2 with candidate 22
+node=6 dist=11 parent=3 joins round 3 with current parent 3 and dist=11
+node=6 dist=11 parent=3 round=3: receives down from 1 with candidate 14
+node=6 dist=11 parent=3 round=3: receives down from 3 with candidate 11
+node=6 dist=11 parent=3 round=3: propagates distance 11 to [1, 5]
+node=5 dist=20 parent=6 round=3: receives down from 6 with candidate 20
+node=5 dist=20 parent=6 round=3: propagates distance 20 to [4]
+node=5 dist=20 parent=6 finishes round 3: dist 20 -> 20, parent 6 -> 6
+node=4 dist=20 parent=3 round=3: receives down from 5 with candidate 26
+node=4 dist=20 parent=3 finishes round 3: dist 20 -> 20, parent 3 -> 3
+node=1 dist=0 parent=None round=3: receives down from 6 with candidate 25
+node=3 dist=9 parent=1 round=3: receives up from 4 with candidate 31
+node=6 dist=11 parent=3 round=3: receives up from 5 with candidate 29
+node=6 dist=11 parent=3 finishes round 3: dist 11 -> 11, parent 3 -> 3
+node=2 dist=7 parent=1 round=3: receives down from 3 with candidate 19
+node=2 dist=7 parent=1 round=3: receives down from 4 with candidate 35
+node=2 dist=7 parent=1 finishes round 3: dist 7 -> 7, parent 1 -> 1
+node=1 dist=0 parent=None round=3: receives up from 2 with candidate 14
+node=3 dist=9 parent=1 round=3: receives up from 6 with candidate 13
+node=3 dist=9 parent=1 finishes round 3: dist 9 -> 9, parent 1 -> 1
+node=1 dist=0 parent=None round=3: receives up from 3 with candidate 18
+node=1 dist=0 parent=None finishes round 3: dist 0 -> 0, parent None -> None
+node=1 dist=0 parent=None starts round 4 with dist=0
+node=6 dist=11 parent=3 joins round 4 with current parent 3 and dist=11
+node=6 dist=11 parent=3 round=4: receives down from 1 with candidate 14
+node=3 dist=9 parent=1 joins round 4 with current parent 1 and dist=9
+node=3 dist=9 parent=1 round=4: receives down from 1 with candidate 9
+node=3 dist=9 parent=1 round=4: propagates distance 9 to [2, 4, 6]
+node=2 dist=7 parent=1 joins round 4 with current parent 1 and dist=7
+node=2 dist=7 parent=1 round=4: receives down from 1 with candidate 7
+node=2 dist=7 parent=1 round=4: propagates distance 7 to [3, 4]
+node=3 dist=9 parent=1 round=4: receives down from 2 with candidate 17
+node=4 dist=20 parent=3 joins round 4 with current parent 3 and dist=20
+node=4 dist=20 parent=3 round=4: receives down from 3 with candidate 20
+node=4 dist=20 parent=3 round=4: propagates distance 20 to [2, 5]
+node=2 dist=7 parent=1 round=4: receives down from 3 with candidate 19
+node=4 dist=20 parent=3 round=4: receives down from 2 with candidate 22
+node=2 dist=7 parent=1 round=4: receives down from 4 with candidate 35
+node=2 dist=7 parent=1 finishes round 4: dist 7 -> 7, parent 1 -> 1
+node=5 dist=20 parent=6 joins round 4 with current parent 6 and dist=20
+node=5 dist=20 parent=6 round=4: receives down from 4 with candidate 26
+node=6 dist=11 parent=3 round=4: receives down from 3 with candidate 11
+node=6 dist=11 parent=3 round=4: propagates distance 11 to [1, 5]
+node=5 dist=20 parent=6 round=4: receives down from 6 with candidate 20
+node=5 dist=20 parent=6 round=4: propagates distance 20 to [4]
+node=5 dist=20 parent=6 finishes round 4: dist 20 -> 20, parent 6 -> 6
+node=6 dist=11 parent=3 round=4: receives up from 5 with candidate 29
+node=6 dist=11 parent=3 finishes round 4: dist 11 -> 11, parent 3 -> 3
+node=4 dist=20 parent=3 round=4: receives down from 5 with candidate 26
+node=4 dist=20 parent=3 finishes round 4: dist 20 -> 20, parent 3 -> 3
+node=3 dist=9 parent=1 round=4: receives up from 6 with candidate 13
+node=1 dist=0 parent=None round=4: receives up from 2 with candidate 14
+node=1 dist=0 parent=None round=4: receives down from 6 with candidate 25
+node=3 dist=9 parent=1 round=4: receives up from 4 with candidate 31
+node=3 dist=9 parent=1 finishes round 4: dist 9 -> 9, parent 1 -> 1
+node=1 dist=0 parent=None round=4: receives up from 3 with candidate 18
+node=1 dist=0 parent=None finishes round 4: dist 0 -> 0, parent None -> None
+node=1 dist=0 parent=None starts round 5 with dist=0
+node=2 dist=7 parent=1 joins round 5 with current parent 1 and dist=7
+node=2 dist=7 parent=1 round=5: receives down from 1 with candidate 7
+node=2 dist=7 parent=1 round=5: propagates distance 7 to [3, 4]
+node=4 dist=20 parent=3 joins round 5 with current parent 3 and dist=20
+node=4 dist=20 parent=3 round=5: receives down from 2 with candidate 22
+node=3 dist=9 parent=1 joins round 5 with current parent 1 and dist=9
+node=3 dist=9 parent=1 round=5: receives down from 1 with candidate 9
+node=3 dist=9 parent=1 round=5: propagates distance 9 to [2, 4, 6]
+node=2 dist=7 parent=1 round=5: receives down from 3 with candidate 19
+node=4 dist=20 parent=3 round=5: receives down from 3 with candidate 20
+node=4 dist=20 parent=3 round=5: propagates distance 20 to [2, 5]
+node=2 dist=7 parent=1 round=5: receives down from 4 with candidate 35
+node=2 dist=7 parent=1 finishes round 5: dist 7 -> 7, parent 1 -> 1
+node=1 dist=0 parent=None round=5: receives up from 2 with candidate 14
+node=5 dist=20 parent=6 joins round 5 with current parent 6 and dist=20
+node=5 dist=20 parent=6 round=5: receives down from 4 with candidate 26
+node=3 dist=9 parent=1 round=5: receives down from 2 with candidate 17
+node=6 dist=11 parent=3 joins round 5 with current parent 3 and dist=11
+node=6 dist=11 parent=3 round=5: receives down from 1 with candidate 14
+node=6 dist=11 parent=3 round=5: receives down from 3 with candidate 11
+node=6 dist=11 parent=3 round=5: propagates distance 11 to [1, 5]
+node=1 dist=0 parent=None round=5: receives down from 6 with candidate 25
+node=5 dist=20 parent=6 round=5: receives down from 6 with candidate 20
+node=5 dist=20 parent=6 round=5: propagates distance 20 to [4]
+node=5 dist=20 parent=6 finishes round 5: dist 20 -> 20, parent 6 -> 6
+node=4 dist=20 parent=3 round=5: receives down from 5 with candidate 26
+node=4 dist=20 parent=3 finishes round 5: dist 20 -> 20, parent 3 -> 3
+node=6 dist=11 parent=3 round=5: receives up from 5 with candidate 29
+node=6 dist=11 parent=3 finishes round 5: dist 11 -> 11, parent 3 -> 3
+node=3 dist=9 parent=1 round=5: receives up from 4 with candidate 31
+node=3 dist=9 parent=1 round=5: receives up from 6 with candidate 13
+node=3 dist=9 parent=1 finishes round 5: dist 9 -> 9, parent 1 -> 1
+node=1 dist=0 parent=None round=5: receives up from 3 with candidate 18
+node=1 dist=0 parent=None finishes round 5: dist 0 -> 0, parent None -> None
+node=1 dist=0 parent=None broadcasts final routing information after round 5
+node=2 dist=7 parent=1 accepts final routing announcement for round 5 from 1
+node=6 dist=11 parent=3 accepts final routing announcement for round 5 from 1
+node=4 dist=20 parent=3 accepts final routing announcement for round 5 from 2
+node=3 dist=9 parent=1 accepts final routing announcement for round 5 from 1
+node=5 dist=20 parent=6 accepts final routing announcement for round 5 from 6
