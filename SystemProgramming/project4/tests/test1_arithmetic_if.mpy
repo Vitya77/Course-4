@@ -1,0 +1,12 @@
+a = 2 + 3 * 4
+b = sin(0) + cos(0)
+c = -2**3 + 10 // 3 + 10 % 3
+
+print(a)
+print(b)
+print(c)
+
+if a > c and not False:
+    print(a, c)
+else:
+    print(0)

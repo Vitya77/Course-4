@@ -1,0 +1,55 @@
+prog ::= stmt_list EOF
+
+stmt_list ::= { NEWLINE } stmt { { NEWLINE } stmt } { NEWLINE }
+
+stmt ::= assign_stmt
+       | print_stmt
+       | if_stmt
+       | while_stmt
+
+assign_stmt ::= ident "=" expr
+
+print_stmt ::= "print" "(" [ expr { "," expr } ] ")"
+
+if_stmt ::= "if" expr ":" NEWLINE INDENT stmt_list DEDENT
+            [ "else" ":" NEWLINE INDENT stmt_list DEDENT ]
+
+while_stmt ::= "while" expr ":" NEWLINE INDENT stmt_list DEDENT
+
+expr ::= or_expr
+
+or_expr ::= and_expr { "or" and_expr }
+
+and_expr ::= not_expr { "and" not_expr }
+
+not_expr ::= "not" not_expr
+           | compare_expr
+
+compare_expr ::= arith_expr [ compare_op arith_expr ]*
+
+compare_op ::= "==" | "!=" | "<" | "<=" | ">" | ">="
+
+arith_expr ::= term { ( "+" | "-" ) term }
+
+term ::= unary_expr { ( "*" | "/" | "//" | "%" ) unary_expr }
+
+unary_expr ::= ( "+" | "-" ) unary_expr
+             | power_expr
+
+power_expr ::= atom [ "**" unary_expr ]
+
+atom ::= number
+       | boolean
+       | ident
+       | func_call
+       | "(" expr ")"
+
+func_call ::= func_name "(" [ expr { "," expr } ] ")"
+
+func_name ::= "sin" | "cos" | "int" | "float" | "input"
+
+number ::= digit { digit } [ "." digit { digit } ] [ ( "e" | "E" ) [ "+" | "-" ] digit { digit } ]
+
+boolean ::= "True" | "False"
+
+ident ::= letter { letter | digit | "_" }
