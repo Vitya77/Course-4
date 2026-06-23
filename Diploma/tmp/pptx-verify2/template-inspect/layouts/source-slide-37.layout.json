@@ -1,0 +1,432 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/kjm1cfa9",
+    "id": "kjm1cfa9",
+    "slide": 38,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Назва та вміст",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "bg1",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Офіс",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mj-lt",
+      "+mn-lt",
+      "Courier New",
+      "Times New Roman"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Назва та вміст",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Заголовок 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Місце для дати 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/5",
+          "id": "5",
+          "name": "Місце для нижнього колонтитула 4",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Місце для заголовка 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            139.17
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Місце для тексту 2",
+          "bbox": [
+            88,
+            191.67,
+            1104,
+            456.83
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Місце для дати 3",
+          "bbox": [
+            88,
+            667.33,
+            288,
+            38.33
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Місце для нижнього колонтитула 4",
+          "bbox": [
+            424,
+            667.33,
+            432,
+            38.33
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Місце для номера слайда 5",
+          "bbox": [
+            904,
+            667.33,
+            288,
+            38.33
+          ],
+          "geometry": "rect"
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v6psfil0",
+      "id": "8",
+      "name": "Rectangle 7",
+      "bbox": [
+        0.32,
+        0,
+        1279.68,
+        720
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szqtcj6t",
+      "id": "10",
+      "name": "Freeform: Shape 9",
+      "bbox": [
+        0,
+        0,
+        437.51,
+        720
+      ],
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "accent2"
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/donyd0z6",
+      "id": "2",
+      "name": "Заголовок 1",
+      "bbox": [
+        72.11,
+        121.11,
+        336,
+        468.36
+      ],
+      "text": "Код: deep links",
+      "textPreview": "Код: deep links",
+      "resolvedFontSize": 58.67,
+      "resolvedTextStyle": {
+        "fontSize": 58.67,
+        "typeface": "+mj-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Код: deep"
+          },
+          {
+            "index": 2,
+            "text": "links"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Код: deep links",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Код: deep links",
+              "typeface": "Times New Roman",
+              "color": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/at47y1kr",
+      "id": "12",
+      "name": "Arc 11",
+      "bbox": [
+        792.69,
+        257.79,
+        428.71,
+        428.71
+      ],
+      "geometry": "arc",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "accent4",
+      "lineWidth": 13.33
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3q5o7qp",
+      "id": "3",
+      "name": "Місце для вмісту 2",
+      "bbox": [
+        466.91,
+        33.5,
+        754.49,
+        635.44
+      ],
+      "text": "prefixes: [Linking.createURL(\"/\"),\n'https://bazhay.com/deep_link_open/redirect/']\nWish: \"wish/:wishId\"\nBrand: { path: \"home/brand/:slug?\" }\nProfile: { path: \"main/profile/:userId?\" }",
+      "textPreview": "prefixes: [Linking.createURL(\"/\"), | 'https://bazhay.com/deep_link_open/redirect/'] | Wish: \"wish/:wishId\" | Brand: { path: \"home/brand/:...",
+      "resolvedFontSize": 37.33,
+      "resolvedTextStyle": {
+        "fontSize": 37.33,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "prefixes: [Linking.createURL(\"/\"),"
+          },
+          {
+            "index": 2,
+            "text": "'https://bazhay.com/deep_link_open/redirect/']"
+          },
+          {
+            "index": 3,
+            "text": "Wish: \"wish/:wishId\""
+          },
+          {
+            "index": 4,
+            "text": "Brand: { path: \"home/brand/:slug?\" }"
+          },
+          {
+            "index": 5,
+            "text": "Profile: { path: \"main/profile/:userId?\" }"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "prefixes: [Linking.createURL(\"/\"),",
+          "runs": [
+            {
+              "index": 1,
+              "text": "prefixes: [Linking.createURL(\"/\"),",
+              "fontSize": 16,
+              "typeface": "Courier New"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "'https://bazhay.com/deep_link_open/redirect/']",
+          "runs": [
+            {
+              "index": 1,
+              "text": "'https://bazhay.com/deep_link_open/redirect/']",
+              "fontSize": 16,
+              "typeface": "Courier New"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Wish: \"wish/:wishId\"",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Wish: \"wish/:wishId\"",
+              "fontSize": 16,
+              "typeface": "Courier New"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Brand: { path: \"home/brand/:slug?\" }",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Brand: { path: \"home/brand/:slug?\" }",
+              "fontSize": 16,
+              "typeface": "Courier New"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "Profile: { path: \"main/profile/:userId?\" }",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Profile: { path: \"main/profile/:userId?\" }",
+              "fontSize": 16,
+              "typeface": "Courier New"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

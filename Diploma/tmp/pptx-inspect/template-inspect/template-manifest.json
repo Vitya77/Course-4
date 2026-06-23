@@ -1,0 +1,633 @@
+{
+  "sourcePptx": "/Users/viktorstehnii/Repositories/Course-4/Diploma/Дипломна.pptx",
+  "workspace": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect",
+  "outDir": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect",
+  "generatedAt": "2026-05-25T11:25:07.500Z",
+  "slideCount": 32,
+  "slideArtifacts": [
+    {
+      "slide": 1,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-01.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-01.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-01.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-01.layout.json"
+    },
+    {
+      "slide": 2,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-02.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-02.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-02.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-02.layout.json"
+    },
+    {
+      "slide": 3,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-03.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-03.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-03.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-03.layout.json"
+    },
+    {
+      "slide": 4,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-04.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-04.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-04.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-04.layout.json"
+    },
+    {
+      "slide": 5,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-05.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-05.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-05.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-05.layout.json"
+    },
+    {
+      "slide": 6,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-06.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-06.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-06.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-06.layout.json"
+    },
+    {
+      "slide": 7,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-07.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-07.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-07.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-07.layout.json"
+    },
+    {
+      "slide": 8,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-08.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-08.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-08.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-08.layout.json"
+    },
+    {
+      "slide": 9,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-09.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-09.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-09.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-09.layout.json"
+    },
+    {
+      "slide": 10,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-10.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-10.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-10.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-10.layout.json"
+    },
+    {
+      "slide": 11,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-11.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-11.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-11.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-11.layout.json"
+    },
+    {
+      "slide": 12,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-12.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-12.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-12.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-12.layout.json"
+    },
+    {
+      "slide": 13,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-13.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-13.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-13.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-13.layout.json"
+    },
+    {
+      "slide": 14,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-14.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-14.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-14.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-14.layout.json"
+    },
+    {
+      "slide": 15,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-15.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-15.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-15.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-15.layout.json"
+    },
+    {
+      "slide": 16,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-16.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-16.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-16.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-16.layout.json"
+    },
+    {
+      "slide": 17,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-17.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-17.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-17.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-17.layout.json"
+    },
+    {
+      "slide": 18,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-18.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-18.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-18.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-18.layout.json"
+    },
+    {
+      "slide": 19,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-19.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-19.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-19.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-19.layout.json"
+    },
+    {
+      "slide": 20,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-20.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-20.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-20.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-20.layout.json"
+    },
+    {
+      "slide": 21,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-21.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-21.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-21.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-21.layout.json"
+    },
+    {
+      "slide": 22,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-22.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-22.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-22.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-22.layout.json"
+    },
+    {
+      "slide": 23,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-23.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-23.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-23.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-23.layout.json"
+    },
+    {
+      "slide": 24,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-24.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-24.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-24.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-24.layout.json"
+    },
+    {
+      "slide": 25,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-25.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-25.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-25.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-25.layout.json"
+    },
+    {
+      "slide": 26,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-26.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-26.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-26.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-26.layout.json"
+    },
+    {
+      "slide": 27,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-27.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-27.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-27.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-27.layout.json"
+    },
+    {
+      "slide": 28,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-28.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-28.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-28.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-28.layout.json"
+    },
+    {
+      "slide": 29,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-29.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-29.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-29.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-29.layout.json"
+    },
+    {
+      "slide": 30,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-30.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-30.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-30.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-30.layout.json"
+    },
+    {
+      "slide": 31,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-31.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-31.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-31.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-31.layout.json"
+    },
+    {
+      "slide": 32,
+      "previewPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/source-slides/source-slide-32.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-32.png",
+      "layoutPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/layouts/source-slide-32.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-32.layout.json"
+    }
+  ],
+  "inspectPath": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/template-inspect.ndjson",
+  "inspectRelativePath": "template-inspect/template-inspect.ndjson",
+  "inspectTruncated": true,
+  "inspectMetadata": {
+    "revision": "fsn9eh",
+    "target": {
+      "id": "pr/1gid1m"
+    },
+    "kind": {
+      "requested": "slide,textbox,shape,image,table,chart",
+      "tokens": [
+        "slide",
+        "textbox",
+        "shape",
+        "image",
+        "table",
+        "chart"
+      ]
+    },
+    "include": {
+      "tokens": []
+    },
+    "exclude": {
+      "tokens": []
+    },
+    "notices": []
+  },
+  "extractedMedia": [
+    {
+      "entry": "ppt/media/image44.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image44.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image44.jpg",
+      "bytes": 62441
+    },
+    {
+      "entry": "ppt/media/image45.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image45.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image45.jpg",
+      "bytes": 27793
+    },
+    {
+      "entry": "ppt/media/image46.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image46.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image46.jpg",
+      "bytes": 31581
+    },
+    {
+      "entry": "ppt/media/image47.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image47.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image47.jpg",
+      "bytes": 26954
+    },
+    {
+      "entry": "ppt/media/image48.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image48.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image48.jpg",
+      "bytes": 15373
+    },
+    {
+      "entry": "ppt/media/image49.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image49.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image49.jpg",
+      "bytes": 18145
+    },
+    {
+      "entry": "ppt/media/image50.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image50.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image50.jpg",
+      "bytes": 21511
+    },
+    {
+      "entry": "ppt/media/image51.png",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image51.png",
+      "relativePath": "template-inspect/assets/ppt/media/image51.png",
+      "bytes": 4829
+    },
+    {
+      "entry": "ppt/media/image52.png",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image52.png",
+      "relativePath": "template-inspect/assets/ppt/media/image52.png",
+      "bytes": 5098
+    },
+    {
+      "entry": "ppt/media/image27.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image27.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image27.jpg",
+      "bytes": 145605
+    },
+    {
+      "entry": "ppt/media/image25.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image25.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image25.jpg",
+      "bytes": 85532
+    },
+    {
+      "entry": "ppt/media/image41.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image41.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image41.jpg",
+      "bytes": 37075
+    },
+    {
+      "entry": "ppt/media/image40.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image40.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image40.jpg",
+      "bytes": 52875
+    },
+    {
+      "entry": "ppt/media/image39.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image39.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image39.jpg",
+      "bytes": 31853
+    },
+    {
+      "entry": "ppt/media/image38.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image38.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image38.jpg",
+      "bytes": 80929
+    },
+    {
+      "entry": "ppt/media/image37.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image37.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image37.jpg",
+      "bytes": 42790
+    },
+    {
+      "entry": "ppt/media/image36.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image36.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image36.jpg",
+      "bytes": 31884
+    },
+    {
+      "entry": "ppt/media/image35.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image35.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image35.jpg",
+      "bytes": 27281
+    },
+    {
+      "entry": "ppt/media/image34.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image34.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image34.jpg",
+      "bytes": 25481
+    },
+    {
+      "entry": "ppt/media/image33.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image33.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image33.jpg",
+      "bytes": 27965
+    },
+    {
+      "entry": "ppt/media/image32.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image32.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image32.jpg",
+      "bytes": 30023
+    },
+    {
+      "entry": "ppt/media/image31.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image31.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image31.jpg",
+      "bytes": 33719
+    },
+    {
+      "entry": "ppt/media/image30.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image30.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image30.jpg",
+      "bytes": 37936
+    },
+    {
+      "entry": "ppt/media/image29.jpeg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image29.jpeg",
+      "relativePath": "template-inspect/assets/ppt/media/image29.jpeg",
+      "bytes": 60791
+    },
+    {
+      "entry": "ppt/media/image28.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image28.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image28.jpg",
+      "bytes": 66952
+    },
+    {
+      "entry": "ppt/media/image26.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image26.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image26.jpg",
+      "bytes": 81263
+    },
+    {
+      "entry": "ppt/media/image24.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image24.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image24.jpg",
+      "bytes": 28278
+    },
+    {
+      "entry": "ppt/media/image23.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image23.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image23.jpg",
+      "bytes": 36307
+    },
+    {
+      "entry": "ppt/media/image22.jpeg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image22.jpeg",
+      "relativePath": "template-inspect/assets/ppt/media/image22.jpeg",
+      "bytes": 22723
+    },
+    {
+      "entry": "ppt/media/image21.jpeg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image21.jpeg",
+      "relativePath": "template-inspect/assets/ppt/media/image21.jpeg",
+      "bytes": 29395
+    },
+    {
+      "entry": "ppt/media/image20.jpeg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image20.jpeg",
+      "relativePath": "template-inspect/assets/ppt/media/image20.jpeg",
+      "bytes": 22051
+    },
+    {
+      "entry": "ppt/media/image19.jpeg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image19.jpeg",
+      "relativePath": "template-inspect/assets/ppt/media/image19.jpeg",
+      "bytes": 53448
+    },
+    {
+      "entry": "ppt/media/image18.jpeg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image18.jpeg",
+      "relativePath": "template-inspect/assets/ppt/media/image18.jpeg",
+      "bytes": 39416
+    },
+    {
+      "entry": "ppt/media/image17.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image17.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image17.jpg",
+      "bytes": 37306
+    },
+    {
+      "entry": "ppt/media/image16.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image16.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image16.jpg",
+      "bytes": 42191
+    },
+    {
+      "entry": "ppt/media/image15.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image15.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image15.jpg",
+      "bytes": 42601
+    },
+    {
+      "entry": "ppt/media/image14.png",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image14.png",
+      "relativePath": "template-inspect/assets/ppt/media/image14.png",
+      "bytes": 28837
+    },
+    {
+      "entry": "ppt/media/image13.svg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image13.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image13.svg",
+      "bytes": 3212
+    },
+    {
+      "entry": "ppt/media/image12.svg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image12.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image12.svg",
+      "bytes": 4791
+    },
+    {
+      "entry": "ppt/media/image11.png",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image11.png",
+      "relativePath": "template-inspect/assets/ppt/media/image11.png",
+      "bytes": 5593
+    },
+    {
+      "entry": "ppt/media/image10.svg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image10.svg",
+      "relativePath": "template-inspect/assets/ppt/media/image10.svg",
+      "bytes": 5682
+    },
+    {
+      "entry": "ppt/media/image9.png",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image9.png",
+      "relativePath": "template-inspect/assets/ppt/media/image9.png",
+      "bytes": 22340
+    },
+    {
+      "entry": "ppt/media/image8.png",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image8.png",
+      "relativePath": "template-inspect/assets/ppt/media/image8.png",
+      "bytes": 172570
+    },
+    {
+      "entry": "ppt/media/image7.png",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image7.png",
+      "relativePath": "template-inspect/assets/ppt/media/image7.png",
+      "bytes": 5155
+    },
+    {
+      "entry": "ppt/media/image6.png",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image6.png",
+      "relativePath": "template-inspect/assets/ppt/media/image6.png",
+      "bytes": 27539
+    },
+    {
+      "entry": "ppt/media/image5.png",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image5.png",
+      "relativePath": "template-inspect/assets/ppt/media/image5.png",
+      "bytes": 2763
+    },
+    {
+      "entry": "ppt/media/image4.png",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image4.png",
+      "relativePath": "template-inspect/assets/ppt/media/image4.png",
+      "bytes": 30072
+    },
+    {
+      "entry": "ppt/media/image3.png",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image3.png",
+      "relativePath": "template-inspect/assets/ppt/media/image3.png",
+      "bytes": 1479
+    },
+    {
+      "entry": "ppt/media/image2.png",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image2.png",
+      "relativePath": "template-inspect/assets/ppt/media/image2.png",
+      "bytes": 46882
+    },
+    {
+      "entry": "ppt/media/image1.png",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image1.png",
+      "relativePath": "template-inspect/assets/ppt/media/image1.png",
+      "bytes": 16269
+    },
+    {
+      "entry": "ppt/media/image43.jpg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image43.jpg",
+      "relativePath": "template-inspect/assets/ppt/media/image43.jpg",
+      "bytes": 95222
+    },
+    {
+      "entry": "ppt/media/image42.jpeg",
+      "path": "/Users/viktorstehnii/Repositories/Course-4/Diploma/tmp/pptx-inspect/template-inspect/assets/ppt/media/image42.jpeg",
+      "relativePath": "template-inspect/assets/ppt/media/image42.jpeg",
+      "bytes": 62726
+    }
+  ],
+  "fonts": [
+    "+mj-cs",
+    "+mj-ea",
+    "+mj-lt",
+    "+mn-cs",
+    "+mn-ea",
+    "+mn-lt",
+    "Angsana New",
+    "Arial",
+    "Calibri",
+    "Calibri Light",
+    "Cordia New",
+    "DaunPenh",
+    "DokChampa",
+    "Ebrima",
+    "Estrangelo Edessa",
+    "Euphemia",
+    "Gautami",
+    "Iskoola Pota",
+    "Javanese Text",
+    "Kalinga",
+    "Kartika",
+    "Latha",
+    "Leelawadee UI",
+    "MV Boli",
+    "Mangal",
+    "Microsoft Himalaya",
+    "Microsoft JhengHei",
+    "Microsoft New Tai Lue",
+    "Microsoft Tai Le",
+    "Microsoft Uighur",
+    "Microsoft Yi Baiti",
+    "Mongolian Baiti",
+    "MoolBoran",
+    "Myanmar Text",
+    "Nirmala UI",
+    "Nyala",
+    "Phagspa",
+    "Plantagenet Cherokee",
+    "Raavi",
+    "Segoe UI",
+    "Shruti",
+    "Sylfaen",
+    "Times New Roman",
+    "Tunga",
+    "Vrinda",
+    "新細明體",
+    "游ゴシック",
+    "游ゴシック Light",
+    "等线",
+    "等线 Light",
+    "맑은 고딕"
+  ],
+  "packageParts": {
+    "mediaCount": 52,
+    "slideXmlCount": 32,
+    "chartCount": 0,
+    "tableSlideCount": 6
+  }
+}

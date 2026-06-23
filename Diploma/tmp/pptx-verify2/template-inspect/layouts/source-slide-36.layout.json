@@ -1,0 +1,431 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/nuxc3ylc",
+    "id": "nuxc3ylc",
+    "slide": 37,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Назва та вміст",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "bg1",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Офіс",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mj-lt",
+      "+mn-lt",
+      "Times New Roman"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Назва та вміст",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Заголовок 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Місце для дати 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/5",
+          "id": "5",
+          "name": "Місце для нижнього колонтитула 4",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Місце для заголовка 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            139.17
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Місце для тексту 2",
+          "bbox": [
+            88,
+            191.67,
+            1104,
+            456.83
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Місце для дати 3",
+          "bbox": [
+            88,
+            667.33,
+            288,
+            38.33
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Місце для нижнього колонтитула 4",
+          "bbox": [
+            424,
+            667.33,
+            432,
+            38.33
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Місце для номера слайда 5",
+          "bbox": [
+            904,
+            667.33,
+            288,
+            38.33
+          ],
+          "geometry": "rect"
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cvixczed",
+      "id": "8",
+      "name": "Rectangle 7",
+      "bbox": [
+        0.32,
+        0,
+        1279.68,
+        720
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18jqh0fe",
+      "id": "10",
+      "name": "Freeform: Shape 9",
+      "bbox": [
+        0,
+        0,
+        437.51,
+        720
+      ],
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "accent2"
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u9knih4b",
+      "id": "2",
+      "name": "Заголовок 1",
+      "bbox": [
+        72.11,
+        121.11,
+        336,
+        468.36
+      ],
+      "text": "Новизна та перспективи",
+      "textPreview": "Новизна та перспективи",
+      "resolvedFontSize": 58.67,
+      "resolvedTextStyle": {
+        "fontSize": 58.67,
+        "typeface": "+mj-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Новизна та"
+          },
+          {
+            "index": 2,
+            "text": "перспективи"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Новизна та перспективи",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Новизна та перспективи",
+              "typeface": "Times New Roman",
+              "color": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j2t83itg",
+      "id": "12",
+      "name": "Arc 11",
+      "bbox": [
+        792.69,
+        257.79,
+        428.71,
+        428.71
+      ],
+      "geometry": "arc",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "accent4",
+      "lineWidth": 13.33
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/judg7ads",
+      "id": "3",
+      "name": "Місце для вмісту 2",
+      "bbox": [
+        466.91,
+        33.5,
+        754.49,
+        635.44
+      ],
+      "text": "Унікальність рішення полягає в поєднанні вішлистів, резервування та копіювання бажань у соціальному середовищі.\nУніверсальний парсер посилань автоматизує створення бажань з інтернет-магазинів без ручного заповнення.\nНаступні кроки розвитку: чати між користувачами, AI-рекомендації та оплата прямо в застосунку.\nПодальше масштабування можливе через веб-версію, рейтинги брендів і розширені рекламні сценарії.",
+      "textPreview": "Унікальність рішення полягає в поєднанні вішлистів, резервування та копіювання бажань у соціальному середовищі. | Універсальний парсер по...",
+      "resolvedFontSize": 37.33,
+      "resolvedTextStyle": {
+        "fontSize": 37.33,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. Унікальність рішення полягає в поєднанні вішлистів, резервування та копіювання"
+          },
+          {
+            "index": 2,
+            "text": "бажань у соціальному середовищі."
+          },
+          {
+            "index": 3,
+            "text": "2. Універсальний парсер посилань автоматизує створення бажань з інтернет-магазинів"
+          },
+          {
+            "index": 4,
+            "text": "без ручного заповнення."
+          },
+          {
+            "index": 5,
+            "text": "3. Наступні кроки розвитку: чати між користувачами, AI-рекомендації та оплата прямо в"
+          },
+          {
+            "index": 6,
+            "text": "застосунку."
+          },
+          {
+            "index": 7,
+            "text": "4. Подальше масштабування можливе через веб-версію, рейтинги брендів і розширені"
+          },
+          {
+            "index": 8,
+            "text": "рекламні сценарії."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Унікальність рішення полягає в поєднанні вішлистів, резервування та копіювання бажань у соціальному середовищі.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Унікальність рішення полягає в поєднанні вішлистів, резервування та копіювання бажань у соціальному середовищі.",
+              "fontSize": 18.67,
+              "typeface": "Times New Roman"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "Універсальний парсер посилань автоматизує створення бажань з інтернет-магазинів без ручного заповнення.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Універсальний парсер посилань автоматизує створення бажань з інтернет-магазинів без ручного заповнення.",
+              "fontSize": 18.67,
+              "typeface": "Times New Roman"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Наступні кроки розвитку: чати між користувачами, AI-рекомендації та оплата прямо в застосунку.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Наступні кроки розвитку: чати між користувачами, AI-рекомендації та оплата прямо в застосунку.",
+              "fontSize": 18.67,
+              "typeface": "Times New Roman"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Подальше масштабування можливе через веб-версію, рейтинги брендів і розширені рекламні сценарії.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Подальше масштабування можливе через веб-версію, рейтинги брендів і розширені рекламні сценарії.",
+              "fontSize": 18.67,
+              "typeface": "Times New Roman"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

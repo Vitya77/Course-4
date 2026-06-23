@@ -1,0 +1,514 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/qh0fepkz",
+    "id": "qh0fepkz",
+    "slide": 10,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Назва та вміст",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "bg1",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Офіс",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mj-lt",
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Назва та вміст",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Заголовок 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Місце для дати 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/5",
+          "id": "5",
+          "name": "Місце для нижнього колонтитула 4",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Місце для заголовка 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            139.17
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Місце для тексту 2",
+          "bbox": [
+            88,
+            191.67,
+            1104,
+            456.83
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Місце для дати 3",
+          "bbox": [
+            88,
+            667.33,
+            288,
+            38.33
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Місце для нижнього колонтитула 4",
+          "bbox": [
+            424,
+            667.33,
+            432,
+            38.33
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Місце для номера слайда 5",
+          "bbox": [
+            904,
+            667.33,
+            288,
+            38.33
+          ],
+          "geometry": "rect"
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gbq1oryt",
+      "id": "13",
+      "name": "Rectangle 8",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ovahoza1",
+      "id": "2",
+      "name": "Заголовок 1",
+      "bbox": [
+        67.07,
+        67.11,
+        374.99,
+        375.17
+      ],
+      "text": "5. Article",
+      "textPreview": "5. Article",
+      "resolvedFontSize": 58.67,
+      "resolvedTextStyle": {
+        "fontSize": 58.67,
+        "typeface": "+mj-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5. Article"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5. Article",
+          "runs": [
+            {
+              "index": 1,
+              "text": "5. Article",
+              "fontSize": 88,
+              "typeface": "+mj-lt",
+              "color": "tx1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n29gr2p8",
+      "id": "14",
+      "name": "sketch line",
+      "bbox": [
+        67.54,
+        462.92,
+        341.74,
+        1.92
+      ],
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "accent2"
+    },
+    {
+      "order": 4,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/lszqtcj6",
+      "id": "15",
+      "name": "Таблиця 11",
+      "bbox": [
+        646.63,
+        203.68,
+        441.47,
+        309.76
+      ],
+      "text": "slug | string\ntitle | string\ndescription | string\nphoto | string",
+      "textPreview": "slug | string | title | string | description | string | photo | string",
+      "rows": 4,
+      "cols": 2,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            646.63,
+            203.68,
+            273.29,
+            77.44
+          ],
+          "text": "slug",
+          "textPreview": "slug",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "slug",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "slug",
+                  "fontSize": 44
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            919.92,
+            203.68,
+            168.18,
+            77.44
+          ],
+          "text": "string",
+          "textPreview": "string",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "string",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "string",
+                  "fontSize": 44
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            646.63,
+            281.12,
+            273.29,
+            77.44
+          ],
+          "text": "title",
+          "textPreview": "title",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "title",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "title",
+                  "fontSize": 44
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            919.92,
+            281.12,
+            168.18,
+            77.44
+          ],
+          "text": "string",
+          "textPreview": "string",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "string",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "string",
+                  "fontSize": 44
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            646.63,
+            358.56,
+            273.29,
+            77.44
+          ],
+          "text": "description",
+          "textPreview": "description",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "description",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "description",
+                  "fontSize": 44
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            919.92,
+            358.56,
+            168.18,
+            77.44
+          ],
+          "text": "string",
+          "textPreview": "string",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "string",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "string",
+                  "fontSize": 44
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            646.63,
+            436,
+            273.29,
+            77.44
+          ],
+          "text": "photo",
+          "textPreview": "photo",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "photo",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "photo",
+                  "fontSize": 44
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            919.92,
+            436,
+            168.18,
+            77.44
+          ],
+          "text": "string",
+          "textPreview": "string",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "string",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "string",
+                  "fontSize": 44
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

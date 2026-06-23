@@ -1,0 +1,402 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/val87ed8",
+    "id": "val87ed8",
+    "slide": 5,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Назва та вміст",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "bg1",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Офіс",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mj-lt",
+      "+mn-lt",
+      "Times New Roman"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Назва та вміст",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Заголовок 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Місце для дати 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/5",
+          "id": "5",
+          "name": "Місце для нижнього колонтитула 4",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Місце для заголовка 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            139.17
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Місце для тексту 2",
+          "bbox": [
+            88,
+            191.67,
+            1104,
+            456.83
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Місце для дати 3",
+          "bbox": [
+            88,
+            667.33,
+            288,
+            38.33
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Місце для нижнього колонтитула 4",
+          "bbox": [
+            424,
+            667.33,
+            432,
+            38.33
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Місце для номера слайда 5",
+          "bbox": [
+            904,
+            667.33,
+            288,
+            38.33
+          ],
+          "geometry": "rect"
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5o7qpg3",
+      "id": "13",
+      "name": "Rectangle 7",
+      "bbox": [
+        0.32,
+        0,
+        1279.68,
+        720
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/18jqh0fe",
+      "id": "14",
+      "name": "Freeform: Shape 9",
+      "bbox": [
+        0,
+        0,
+        437.51,
+        720
+      ],
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "accent2"
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qtcj6tov",
+      "id": "2",
+      "name": "Заголовок 1",
+      "bbox": [
+        72.11,
+        121.11,
+        336,
+        468.36
+      ],
+      "text": "Модель даних",
+      "textPreview": "Модель даних",
+      "resolvedFontSize": 58.67,
+      "resolvedTextStyle": {
+        "fontSize": 58.67,
+        "typeface": "+mj-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Модель"
+          },
+          {
+            "index": 2,
+            "text": "даних"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Модель даних",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Модель даних",
+              "typeface": "Times New Roman",
+              "color": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jqh0fepk",
+      "id": "12",
+      "name": "Arc 11",
+      "bbox": [
+        792.69,
+        257.79,
+        428.71,
+        428.71
+      ],
+      "geometry": "arc",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "accent4",
+      "lineWidth": 13.33
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/je9cvixc",
+      "id": "3",
+      "name": "Місце для вмісту 2",
+      "bbox": [
+        466.91,
+        62.08,
+        725.09,
+        586.42
+      ],
+      "text": "У рамках клієнтської частини мобільного додатку «BAZHAY!» використовується спрощене, але достатньо функціональне представлення даних, яке дозволяє зручно відображати, зберігати у локальному стані та надсилати інформацію до серверної частини.\n",
+      "textPreview": "У рамках клієнтської частини мобільного додатку «BAZHAY!» використовується спрощене, але достатньо функціональне представлення даних, яке...",
+      "resolvedFontSize": 37.33,
+      "resolvedTextStyle": {
+        "fontSize": 37.33,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 10,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          },
+          {
+            "index": 2,
+            "text": "У рамках клієнтської частини мобільного"
+          },
+          {
+            "index": 3,
+            "text": "додатку «BAZHAY!» використовується"
+          },
+          {
+            "index": 4,
+            "text": "спрощене, але достатньо функціональне"
+          },
+          {
+            "index": 5,
+            "text": "представлення даних, яке дозволяє зручно"
+          },
+          {
+            "index": 6,
+            "text": "відображати, зберігати у локальному стані"
+          },
+          {
+            "index": 7,
+            "text": "та надсилати інформацію до серверної"
+          },
+          {
+            "index": 8,
+            "text": "частини."
+          },
+          {
+            "index": 9,
+            "text": ""
+          },
+          {
+            "index": 10,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "У рамках клієнтської частини мобільного додатку «BAZHAY!» використовується спрощене, але достатньо функціональне представлення даних, яке дозволяє зручно відображати, зберігати у локальному стані та надсилати інформацію до серверної частини.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "У рамках клієнтської частини мобільного додатку «BAZHAY!» використовується спрощене, але достатньо функціональне представлення даних, яке дозволяє зручно відображати, зберігати у локальному стані та надсилати інформацію до серверної частини.",
+              "typeface": "Times New Roman"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}

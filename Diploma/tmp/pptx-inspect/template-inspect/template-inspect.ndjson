@@ -1,0 +1,127 @@
+{"kind":"slide","id":"sl/2x4nap4r","slide":2,"title":"РОЗРОБКА КЛІЄНТСЬКОЇ ЧАСТИНИ МОБІЛЬНОГО ЗАСТОСУНКУ ДЛЯ ОБМІНУ ПОДАРУНКАМИ «BA...","textShapes":3}
+{"kind":"textbox","id":"sh/cvixczed","slide":2,"textChars":83,"textLines":1}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":2,"textChars":136,"textLines":5}
+{"kind":"textbox","id":"sh/nyd0z610","slide":2,"textChars":46,"textLines":2}
+{"kind":"slide","id":"sl/pg3ex0nu","slide":3,"title":"Вступ","textShapes":2}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":3,"name":"Rectangle 9","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":3,"textChars":5,"textLines":1}
+{"kind":"shape","id":"sh/3itgfmlk","slide":3,"name":"sketch line","bbox":[707.52,249.12,341.74,1.92]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":3,"textChars":198,"textLines":1}
+{"kind":"image","id":"im/rqd4vmtw","slide":3,"name":"Рисунок 4","bbox":[66.24,73.44,573.12,573.12]}
+{"kind":"slide","id":"sl/s72x4nap","slide":4,"title":"Постановка задачі","textShapes":2}
+{"kind":"shape","id":"sh/z25kb6xk","slide":4,"name":"Rectangle 8","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":4,"textChars":17,"textLines":1}
+{"kind":"shape","id":"sh/6dcbulwv","slide":4,"name":"sketch line","bbox":[67.54,249.12,341.74,1.92]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":4,"textChars":192,"textLines":2}
+{"kind":"image","id":"im/6hcrmhk3","slide":4,"name":"Рисунок 3","bbox":[640.32,73.44,573.12,573.12]}
+{"kind":"slide","id":"sl/val87ed8","slide":5,"title":"Модель даних","textShapes":2}
+{"kind":"shape","id":"sh/q5o7qpg3","slide":5,"name":"Rectangle 7","bbox":[0.32,0,1279.68,720]}
+{"kind":"shape","id":"sh/18jqh0fe","slide":5,"name":"Freeform: Shape 9","bbox":[0,0,437.51,720]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":5,"textChars":12,"textLines":1}
+{"kind":"shape","id":"sh/jqh0fepk","slide":5,"name":"Arc 11","bbox":[792.69,257.79,428.71,428.71]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":5,"textChars":242,"textLines":2}
+{"kind":"slide","id":"sl/mlkjm1cf","slide":6,"title":"1. User","textShapes":1}
+{"kind":"shape","id":"sh/58z25kb6","slide":6,"name":"Rectangle 15","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":6,"textChars":7,"textLines":1}
+{"kind":"shape","id":"sh/neloj2t8","slide":6,"name":"sketch line","bbox":[67.54,462.92,341.74,1.92]}
+{"kind":"table","id":"tb/p4r65wju","slide":6,"name":"Таблиця 11","rows":15,"cols":2,"preview":"id | string","bbox":[524.54,11.24,639.34,662.29]}
+{"kind":"slide","id":"sl/58z25kb6","slide":7,"title":"2. Wish","textShapes":1}
+{"kind":"shape","id":"sh/9s36hcrm","slide":7,"name":"Rectangle 8","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":7,"textChars":7,"textLines":1}
+{"kind":"shape","id":"sh/onyd0z61","slide":7,"name":"sketch line","bbox":[67.54,462.92,341.74,1.92]}
+{"kind":"table","id":"tb/oza1gvy9","slide":7,"name":"Таблиця 11","rows":10,"cols":2,"preview":"id | string","bbox":[488.64,71.31,757.44,574.5]}
+{"kind":"slide","id":"sl/0z61032l","slide":8,"title":"3. Reservation","textShapes":1}
+{"kind":"shape","id":"sh/qtcj6tov","slide":8,"name":"Rectangle 8","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":8,"textChars":14,"textLines":1}
+{"kind":"shape","id":"sh/hgn29gr2","slide":8,"name":"sketch line","bbox":[67.54,462.92,341.74,1.92]}
+{"kind":"table","id":"tb/58z25kb6","slide":8,"name":"Таблиця 11","rows":4,"cols":2,"preview":"id | string","bbox":[611.18,203.68,512.36,309.76]}
+{"kind":"slide","id":"sl/fu18jqh0","slide":9,"title":"4. Brand","textShapes":1}
+{"kind":"shape","id":"sh/5gbq1ory","slide":9,"name":"Rectangle 8","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":9,"textChars":8,"textLines":1}
+{"kind":"shape","id":"sh/8nqxs72x","slide":9,"name":"sketch line","bbox":[67.54,462.92,341.74,1.92]}
+{"kind":"table","id":"tb/c7u54zid","slide":9,"name":"Таблиця 11","rows":6,"cols":2,"preview":"slug | string","bbox":[631.96,126.24,470.8,464.64]}
+{"kind":"slide","id":"sl/qh0fepkz","slide":10,"title":"5. Article","textShapes":1}
+{"kind":"shape","id":"sh/gbq1oryt","slide":10,"name":"Rectangle 8","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":10,"textChars":10,"textLines":1}
+{"kind":"shape","id":"sh/n29gr2p8","slide":10,"name":"sketch line","bbox":[67.54,462.92,341.74,1.92]}
+{"kind":"table","id":"tb/lszqtcj6","slide":10,"name":"Таблиця 11","rows":4,"cols":2,"preview":"slug | string","bbox":[646.63,203.68,441.47,309.76]}
+{"kind":"slide","id":"sl/29gr2p8n","slide":11,"title":"6. Subscription","textShapes":1}
+{"kind":"shape","id":"sh/25kb6xkf","slide":11,"name":"Rectangle 8","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":11,"textChars":15,"textLines":1}
+{"kind":"shape","id":"sh/x0nuxc3y","slide":11,"name":"sketch line","bbox":[67.54,462.92,341.74,1.92]}
+{"kind":"table","id":"tb/loj2t83i","slide":11,"name":"Таблиця 11","rows":3,"cols":2,"preview":"id | string","bbox":[616.07,242.4,502.58,232.32]}
+{"kind":"slide","id":"sl/re1w7mp0","slide":12,"title":"Використаний набір технологій","textShapes":5}
+{"kind":"shape","id":"sh/5sneloj2","slide":12,"name":"Rectangle 1030","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":12,"textChars":29,"textLines":1}
+{"kind":"shape","id":"sh/nqxs72x4","slide":12,"name":"sketch line","bbox":[67.54,462.92,341.74,1.92]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":12,"textChars":12,"textLines":1}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":12,"textChars":4,"textLines":1}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":12,"textChars":10,"textLines":1}
+{"kind":"textbox","id":"sh/sji5snel","slide":12,"textChars":8,"textLines":1}
+{"kind":"image","id":"im/7ed8bat4","slide":12,"name":"Picture 2","bbox":[557.23,67.11,227.01,202.18]}
+{"kind":"image","id":"im/itgfmlkj","slide":12,"name":"Picture 4","bbox":[839.04,67.11,221.09,221.09]}
+{"kind":"image","id":"im/pkzupwb2","slide":12,"name":"Picture 6","bbox":[557.23,362.83,236.19,236.19]}
+{"kind":"image","id":"im/0z61032l","slide":12,"name":"Picture 8","bbox":[870.72,365.28,225.99,225.99]}
+{"kind":"slide","id":"sl/4fu18jqh","slide":13,"title":"Додаткові бібліотеки","textShapes":6}
+{"kind":"shape","id":"sh/l0rqd4vm","slide":13,"name":"Rectangle 22","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":13,"textChars":20,"textLines":1}
+{"kind":"shape","id":"sh/36hcrmhk","slide":13,"name":"sketch line","bbox":[67.54,462.92,341.74,1.92]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":13,"textChars":16,"textLines":1}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":13,"textChars":12,"textLines":1}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":13,"textChars":12,"textLines":1}
+{"kind":"textbox","id":"sh/epkzupwb","slide":13,"textChars":23,"textLines":1}
+{"kind":"textbox","id":"sh/7adsji5s","slide":13,"textChars":23,"textLines":1}
+{"kind":"image","id":"im/mlkjm1cf","slide":13,"name":"Picture 2","bbox":[547.56,137.89,179.84,179.84]}
+{"kind":"image","id":"im/f6dcbulw","slide":13,"name":"Picture 4","bbox":[767.48,157.01,140.91,140.91]}
+{"kind":"image","id":"im/4r65wjud","slide":13,"name":"Picture 6","bbox":[953.85,158.75,140.91,140.91]}
+{"kind":"image","id":"im/xc3ylc7u","slide":13,"name":"Picture 8","bbox":[584.02,437.99,186.37,59.81]}
+{"kind":"slide","id":"sl/lwval87e","slide":14,"title":"Серверні взаємодії","textShapes":4}
+{"kind":"shape","id":"sh/mlkjm1cf","slide":14,"name":"Rectangle 3078","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":14,"textChars":18,"textLines":1}
+{"kind":"shape","id":"sh/z25kb6xk","slide":14,"name":"sketch line","bbox":[67.54,462.92,341.74,1.92]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":14,"textChars":3,"textLines":1}
+{"kind":"textbox","id":"sh/8v6psfil","slide":14,"textChars":10,"textLines":1}
+{"kind":"textbox","id":"sh/xczed8v6","slide":14,"textChars":5,"textLines":1}
+{"kind":"image","id":"im/7ed8bat4","slide":14,"name":"Picture 2","bbox":[487.08,36.89,322.56,214.65]}
+{"kind":"slide","id":"sl/25kb6xkf","slide":15,"title":"Архітектура застосунку","textShapes":1}
+{"kind":"shape","id":"sh/3ylc7u54","slide":15,"name":"Rectangle 9","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":15,"textChars":22,"textLines":1}
+{"kind":"shape","id":"sh/h4byhgn2","slide":15,"name":"sketch line","bbox":[67.54,462.92,341.74,1.92]}
+{"kind":"image","id":"im/zed8v6ps","slide":15,"name":"Рисунок 4","bbox":[555.74,67.2,623.23,582.72]}
+{"kind":"slide","id":"sl/7y1kre1w","slide":16,"title":"Інтерфейс користувача","textShapes":1}
+{"kind":"shape","id":"sh/cvixczed","slide":16,"name":"Rectangle 10","bbox":[0,0,1279.68,720]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":16,"textChars":37,"textLines":2}
+{"kind":"shape","id":"sh/upwb2hwf","slide":16,"name":"sketch line","bbox":[355.84,188.99,568,1.92]}
+{"kind":"image","id":"im/i9s36hcr","slide":16,"name":"Рисунок 5","bbox":[781.31,232.72,194.38,420.28]}
+{"kind":"image","id":"im/bulwval8","slide":16,"name":"Рисунок 4","bbox":[552.6,232.72,194.38,420.28]}
+{"kind":"image","id":"im/0fepkzup","slide":16,"name":"Рисунок 3","bbox":[327.6,232.72,190.66,420.28]}
+{"kind":"slide","id":"sl/8z25kb6x","slide":17,"title":"Екрани реєстрації та входу","textShapes":1}
+{"kind":"shape","id":"sh/dsji5sne","slide":17,"name":"Rectangle 18","bbox":[0,0,1279.68,720]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":17,"textChars":26,"textLines":1}
+{"kind":"shape","id":"sh/oza1gvy9","slide":17,"name":"sketch line","bbox":[400,186.56,480,1.92]}
+{"kind":"image","id":"im/o7qpg3ex","slide":17,"name":"Рисунок 6","bbox":[414,206.88,206.33,446.12]}
+{"kind":"image","id":"im/dsji5sne","slide":17,"name":"Рисунок 12","bbox":[164.98,206.88,206.33,446.12]}
+{"kind":"image","id":"im/6dcbulwv","slide":17,"name":"Рисунок 10","bbox":[904.23,206.88,205.22,446.12]}
+{"kind":"image","id":"im/vy90je9c","slide":17,"name":"Рисунок 7","bbox":[659.67,206.88,205.22,446.12]}
+{"kind":"slide","id":"sl/54zidony","slide":18,"title":"Slide 18","textShapes":0}
+{"kind":"shape","id":"sh/d4vmtwra","slide":18,"name":"Straight Connector 10","bbox":[437.33,165.24,0,389.53]}
+{"kind":"shape","id":"sh/vy90je9c","slide":18,"name":"Straight Connector 12","bbox":[839.47,165.24,0,389.53]}
+{"kind":"image","id":"im/j6tovaho","slide":18,"name":"Рисунок 4","bbox":[123.71,117.96,223.59,483.44]}
+{"kind":"image","id":"im/ulwval87","slide":18,"name":"Рисунок 3","bbox":[526.46,117.96,223.59,483.44]}
+{"kind":"image","id":"im/1cfa9w3m","slide":18,"name":"Рисунок 5","bbox":[929.77,117.96,223.59,483.44]}
+{"kind":"slide","id":"sl/m58z25kb","slide":19,"title":"Головна стрічка","textShapes":1}
+{"kind":"shape","id":"sh/cfa9w3m9","slide":19,"name":"Rectangle 9","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":19,"textChars":15,"textLines":1}
+{"kind":"shape","id":"sh/u9knih4b","slide":19,"name":"sketch line","bbox":[67.54,462.92,341.74,1.92]}
+{"kind":"image","id":"im/kjm1cfa9","slide":19,"name":"Рисунок 4","bbox":[732.61,67.2,269.51,582.72]}
+{"kind":"slide","id":"sl/bat47y1k","slide":20,"title":"Сторінки брендів, новин та бажань","textShapes":1}
+{"kind":"shape","id":"sh/8bat47y1","slide":20,"name":"Rectangle 10","bbox":[0,0,1279.68,720]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":20,"textChars":33,"textLines":1}
+{"kind":"shape","id":"sh/q5o7qpg3","slide":20,"name":"sketch line","bbox":[355.84,188.99,568,1.92]}
+{"kind":"image","id":"im/yd0z6103","slide":20,"name":"Рисунок 3","bbox":[273.36,205.85,206.81,447.15]}
+{"kind":"image","id":"im/rytsvu9k","slide":20,"name":"Рисунок 5","bbox":[546.73,205.85,206.81,447.15]}
+{"kind":"image","id":"im/gfmlkjm1","slide":20,"name":"Рисунок 4","bbox":[819.84,205.85,206.81,447.15]}
+{"kind":"slide","id":"sl/j2t83itg","slide":21,"title":"Сторінка пошуку","textShapes":1}
+{"kind":"shape","id":"sh/90je9cvi","slide":21,"name":"Rectangle 9","bbox":[0,0,1279.68,720]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":21,"textChars":15,"textLines":1}
+{"kind":"notice","message":"Truncated: omitted 80 lines. Increase maxChars or narrow target."}

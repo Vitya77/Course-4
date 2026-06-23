@@ -1,0 +1,612 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/kre1w7mp",
+    "id": "kre1w7mp",
+    "slide": 31,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Назва та вміст",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "bg1",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Офіс",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mj-lt",
+      "+mn-lt",
+      "Times New Roman"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Назва та вміст",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Заголовок 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Місце для дати 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/5",
+          "id": "5",
+          "name": "Місце для нижнього колонтитула 4",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Місце для заголовка 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            139.17
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Місце для тексту 2",
+          "bbox": [
+            88,
+            191.67,
+            1104,
+            456.83
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Місце для дати 3",
+          "bbox": [
+            88,
+            667.33,
+            288,
+            38.33
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Місце для нижнього колонтитула 4",
+          "bbox": [
+            424,
+            667.33,
+            432,
+            38.33
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Місце для номера слайда 5",
+          "bbox": [
+            904,
+            667.33,
+            288,
+            38.33
+          ],
+          "geometry": "rect"
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3m94fu18",
+      "id": "8",
+      "name": "Rectangle 7",
+      "bbox": [
+        0.32,
+        0,
+        1279.68,
+        720
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kf6dcbul",
+      "id": "10",
+      "name": "Oval 9",
+      "bbox": [
+        51.36,
+        117.48,
+        485.03,
+        485.03
+      ],
+      "geometry": "ellipse",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "accent2"
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgn29gr2",
+      "id": "2",
+      "name": "Заголовок 1",
+      "bbox": [
+        122.95,
+        146.63,
+        340.21,
+        426.73
+      ],
+      "text": "Отримані результати",
+      "textPreview": "Отримані результати",
+      "resolvedFontSize": 58.67,
+      "resolvedTextStyle": {
+        "fontSize": 58.67,
+        "typeface": "+mj-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Отримані"
+          },
+          {
+            "index": 2,
+            "text": "результати"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Отримані результати",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Отримані результати",
+              "typeface": "Times New Roman",
+              "color": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/29gr2p8n",
+      "id": "12",
+      "name": "Arc 11",
+      "bbox": [
+        911.68,
+        98.81,
+        313.69,
+        313.69
+      ],
+      "geometry": "arc",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "lineColor": "accent4",
+      "lineWidth": 13.33
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/knih4byh",
+      "id": "14",
+      "name": "Oval 13",
+      "bbox": [
+        95.54,
+        501.94,
+        57.33,
+        57.33
+      ],
+      "geometry": "ellipse",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "accent5"
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svu9knih",
+      "id": "3",
+      "name": "Місце для вмісту 2",
+      "bbox": [
+        587.43,
+        146.63,
+        581.25,
+        189.06
+      ],
+      "text": "У результаті виконання курсової роботи було розроблено та впроваджено клієнтську частину мобільного додатку «BAZHAY!», який реалізує повноцінний функціонал для створення, перегляду, резервування та дарування бажань. \n",
+      "textPreview": "У результаті виконання курсової роботи було розроблено та впроваджено клієнтську частину мобільного додатку «BAZHAY!», який реалізує повн...",
+      "resolvedFontSize": 37.33,
+      "resolvedTextStyle": {
+        "fontSize": 37.33,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 8,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          },
+          {
+            "index": 2,
+            "text": "У результаті виконання курсової роботи було"
+          },
+          {
+            "index": 3,
+            "text": "розроблено та впроваджено клієнтську частину"
+          },
+          {
+            "index": 4,
+            "text": "мобільного додатку «BAZHAY!», який реалізує"
+          },
+          {
+            "index": 5,
+            "text": "повноцінний функціонал для створення,"
+          },
+          {
+            "index": 6,
+            "text": "перегляду, резервування та дарування бажань."
+          },
+          {
+            "index": 7,
+            "text": ""
+          },
+          {
+            "index": 8,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "У результаті виконання курсової роботи було розроблено та впроваджено клієнтську частину мобільного додатку «BAZHAY!», який реалізує повноцінний функціонал для створення, перегляду, резервування та дарування бажань. ",
+          "runs": [
+            {
+              "index": 1,
+              "text": "У результаті виконання курсової роботи було розроблено та впроваджено клієнтську частину мобільного додатку «BAZHAY!», який реалізує повноцінний функціонал для створення, перегляду, резервування та дарування бажань. ",
+              "fontSize": 26.67,
+              "typeface": "Times New Roman"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0z61032",
+      "id": "11",
+      "name": "TextBox 10",
+      "bbox": [
+        563.8,
+        602.52,
+        265.32,
+        38.78
+      ],
+      "geometry": "rect",
+      "text": "«BAZHAY!» в App Store",
+      "textPreview": "«BAZHAY!» в App Store",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "«BAZHAY!» в App"
+          },
+          {
+            "index": 2,
+            "text": "Store"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "«BAZHAY!» в App Store",
+          "runs": [
+            {
+              "index": 1,
+              "text": "«"
+            },
+            {
+              "index": 2,
+              "text": "BAZHAY!"
+            },
+            {
+              "index": 3,
+              "text": "»"
+            },
+            {
+              "index": 4,
+              "text": " "
+            },
+            {
+              "index": 5,
+              "text": "в "
+            },
+            {
+              "index": 6,
+              "text": "App Store"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vu9knih4",
+      "id": "13",
+      "name": "TextBox 12",
+      "bbox": [
+        909.62,
+        602.52,
+        288.08,
+        38.78
+      ],
+      "geometry": "rect",
+      "text": "«BAZHAY!» в Play Market",
+      "textPreview": "«BAZHAY!» в Play Market",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "«BAZHAY!» в Play"
+          },
+          {
+            "index": 2,
+            "text": "Market"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "«BAZHAY!» в Play Market",
+          "runs": [
+            {
+              "index": 1,
+              "text": "«"
+            },
+            {
+              "index": 2,
+              "text": "BAZHAY!"
+            },
+            {
+              "index": 3,
+              "text": "»"
+            },
+            {
+              "index": 4,
+              "text": " "
+            },
+            {
+              "index": 5,
+              "text": "в "
+            },
+            {
+              "index": 6,
+              "text": "Play Market"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/q5o7qpg3",
+      "id": "15",
+      "name": "Рисунок 15",
+      "bbox": [
+        563.8,
+        339.52,
+        251,
+        263
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image51.png",
+        "contentType": "image/png",
+        "byteLength": 4829
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image51.png",
+        "contentType": "image/png",
+        "byteLength": 4829
+      }
+    },
+    {
+      "order": 10,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/1w7mp0bi",
+      "id": "16",
+      "name": "Рисунок 4",
+      "bbox": [
+        915.52,
+        337.02,
+        260,
+        268
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image52.png",
+        "contentType": "image/png",
+        "byteLength": 5098
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image52.png",
+        "contentType": "image/png",
+        "byteLength": 5098
+      }
+    }
+  ],
+  "composeRuns": []
+}

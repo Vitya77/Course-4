@@ -1,0 +1,1083 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/mlkjm1cf",
+    "id": "mlkjm1cf",
+    "slide": 6,
+    "layoutId": "/ppt/slideLayouts/slideLayout2.xml",
+    "layoutName": "Назва та вміст",
+    "layoutType": "obj",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "backgroundColor": "bg1",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "Офіс",
+    "colors": {
+      "accent1": "#4472C4",
+      "accent2": "#ED7D31",
+      "accent3": "#A5A5A5",
+      "accent4": "#FFC000",
+      "accent5": "#5B9BD5",
+      "accent6": "#70AD47",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#44546A",
+      "lt2": "#E7E6E6",
+      "hlink": "#0563C1",
+      "folHlink": "#954F72"
+    },
+    "typefaces": [
+      "+mj-lt",
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout2.xml",
+      "name": "Назва та вміст",
+      "type": "obj",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/2",
+          "id": "2",
+          "name": "Заголовок 1",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/4",
+          "id": "4",
+          "name": "Місце для дати 3",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "layout",
+          "aid": "template/layout//ppt/slideLayouts/slideLayout2.xml/5",
+          "id": "5",
+          "name": "Місце для нижнього колонтитула 4",
+          "bbox": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "type": "master",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/2",
+          "id": "2",
+          "name": "Місце для заголовка 1",
+          "bbox": [
+            88,
+            38.33,
+            1104,
+            139.17
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/3",
+          "id": "3",
+          "name": "Місце для тексту 2",
+          "bbox": [
+            88,
+            191.67,
+            1104,
+            456.83
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 3,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/4",
+          "id": "4",
+          "name": "Місце для дати 3",
+          "bbox": [
+            88,
+            667.33,
+            288,
+            38.33
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 4,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/5",
+          "id": "5",
+          "name": "Місце для нижнього колонтитула 4",
+          "bbox": [
+            424,
+            667.33,
+            432,
+            38.33
+          ],
+          "geometry": "rect"
+        },
+        {
+          "order": 5,
+          "kind": "shape",
+          "scope": "master",
+          "aid": "template/master//ppt/slideMasters/slideMaster1.xml/6",
+          "id": "6",
+          "name": "Місце для номера слайда 5",
+          "bbox": [
+            904,
+            667.33,
+            288,
+            38.33
+          ],
+          "geometry": "rect"
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/58z25kb6",
+      "id": "16",
+      "name": "Rectangle 15",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ovahoza1",
+      "id": "2",
+      "name": "Заголовок 1",
+      "bbox": [
+        67.07,
+        67.11,
+        374.99,
+        375.17
+      ],
+      "text": "1. User",
+      "textPreview": "1. User",
+      "resolvedFontSize": 58.67,
+      "resolvedTextStyle": {
+        "fontSize": 58.67,
+        "typeface": "+mj-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "1. User"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1. User",
+          "runs": [
+            {
+              "index": 1,
+              "text": "1. User",
+              "fontSize": 88,
+              "typeface": "+mj-lt",
+              "color": "tx1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/neloj2t8",
+      "id": "18",
+      "name": "sketch line",
+      "bbox": [
+        67.54,
+        462.92,
+        341.74,
+        1.92
+      ],
+      "geometry": "custom",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": ""
+          }
+        ]
+      },
+      "fillColor": "accent2"
+    },
+    {
+      "order": 4,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/p4r65wju",
+      "id": "19",
+      "name": "Таблиця 11",
+      "bbox": [
+        524.54,
+        11.24,
+        639.33,
+        652.82
+      ],
+      "text": "id | string\nemail | string\nusername  | string\nfirst_name | string\nlast_name | string\nbirthday | string\nview_birthday | boolean\nsex | string\nphoto | string\nabout_user | string\nsubscriber | number\nsubscription | number\nis_premium | boolean\nis_unviewed_notification | boolean\nis_already_registered | boolean",
+      "textPreview": "id | string | email | string | username  | string | first_name | string | last_name | string | birthday | string | view_birthday | boolea...",
+      "rows": 15,
+      "cols": 2,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            524.54,
+            11.24,
+            386.91,
+            43.52
+          ],
+          "text": "id",
+          "textPreview": "id",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "id",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "id",
+                  "fontSize": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            911.44,
+            11.24,
+            252.43,
+            43.52
+          ],
+          "text": "string",
+          "textPreview": "string",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "string",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "string",
+                  "fontSize": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            524.54,
+            54.76,
+            386.91,
+            43.52
+          ],
+          "text": "email",
+          "textPreview": "email",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "email",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "email",
+                  "fontSize": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            911.44,
+            54.76,
+            252.43,
+            43.52
+          ],
+          "text": "string",
+          "textPreview": "string",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "string",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "string",
+                  "fontSize": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            524.54,
+            98.28,
+            386.91,
+            43.52
+          ],
+          "text": "username ",
+          "textPreview": "username",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "username ",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "username ",
+                  "fontSize": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            911.44,
+            98.28,
+            252.43,
+            43.52
+          ],
+          "text": "string",
+          "textPreview": "string",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "string",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "string",
+                  "fontSize": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            524.54,
+            141.8,
+            386.91,
+            43.52
+          ],
+          "text": "first_name",
+          "textPreview": "first_name",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "first_name",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "first_name",
+                  "fontSize": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            911.44,
+            141.8,
+            252.43,
+            43.52
+          ],
+          "text": "string",
+          "textPreview": "string",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "string",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "string",
+                  "fontSize": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            524.54,
+            185.32,
+            386.91,
+            43.52
+          ],
+          "text": "last_name",
+          "textPreview": "last_name",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "last_name",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "last_name",
+                  "fontSize": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            911.44,
+            185.32,
+            252.43,
+            43.52
+          ],
+          "text": "string",
+          "textPreview": "string",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "string",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "string",
+                  "fontSize": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            524.54,
+            228.84,
+            386.91,
+            43.52
+          ],
+          "text": "birthday",
+          "textPreview": "birthday",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "birthday",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "birthday",
+                  "fontSize": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            911.44,
+            228.84,
+            252.43,
+            43.52
+          ],
+          "text": "string",
+          "textPreview": "string",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "string",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "string",
+                  "fontSize": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 7,
+          "column": 1,
+          "bbox": [
+            524.54,
+            272.36,
+            386.91,
+            43.52
+          ],
+          "text": "view_birthday",
+          "textPreview": "view_birthday",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "view_birthday",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "view_birthday",
+                  "fontSize": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 7,
+          "column": 2,
+          "bbox": [
+            911.44,
+            272.36,
+            252.43,
+            43.52
+          ],
+          "text": "boolean",
+          "textPreview": "boolean",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "boolean",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "boolean",
+                  "fontSize": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 8,
+          "column": 1,
+          "bbox": [
+            524.54,
+            315.89,
+            386.91,
+            43.52
+          ],
+          "text": "sex",
+          "textPreview": "sex",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "sex",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "sex",
+                  "fontSize": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "row": 8,
+          "column": 2,
+          "bbox": [
+            911.44,
+            315.89,
+            252.43,
+            43.52
+          ],
+          "text": "string",
+          "textPreview": "string",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "string",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "string",
+                  "fontSize": 24
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "row": 9,
+          "column": 1,
+          "bbox": [
+            524.54,
+            359.41,
+            386.91,
+            43.52
+          ],
+          "text": "photo",
+          "textPreview": "photo",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "photo",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "photo"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "row": 9,
+          "column": 2,
+          "bbox": [
+            911.44,
+            359.41,
+            252.43,
+            43.52
+          ],
+          "text": "string",
+          "textPreview": "string",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "string",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "string",
+                  "alignment": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "row": 10,
+          "column": 1,
+          "bbox": [
+            524.54,
+            402.93,
+            386.91,
+            43.52
+          ],
+          "text": "about_user",
+          "textPreview": "about_user",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "about_user",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "about_user"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "row": 10,
+          "column": 2,
+          "bbox": [
+            911.44,
+            402.93,
+            252.43,
+            43.52
+          ],
+          "text": "string",
+          "textPreview": "string",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "string",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "string",
+                  "alignment": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "row": 11,
+          "column": 1,
+          "bbox": [
+            524.54,
+            446.45,
+            386.91,
+            43.52
+          ],
+          "text": "subscriber",
+          "textPreview": "subscriber",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "subscriber",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "subscriber"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "row": 11,
+          "column": 2,
+          "bbox": [
+            911.44,
+            446.45,
+            252.43,
+            43.52
+          ],
+          "text": "number",
+          "textPreview": "number",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "number",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "number"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "row": 12,
+          "column": 1,
+          "bbox": [
+            524.54,
+            489.97,
+            386.91,
+            43.52
+          ],
+          "text": "subscription",
+          "textPreview": "subscription",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "subscription",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "subscription"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "row": 12,
+          "column": 2,
+          "bbox": [
+            911.44,
+            489.97,
+            252.43,
+            43.52
+          ],
+          "text": "number",
+          "textPreview": "number",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "number",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "number"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "row": 13,
+          "column": 1,
+          "bbox": [
+            524.54,
+            533.49,
+            386.91,
+            43.52
+          ],
+          "text": "is_premium",
+          "textPreview": "is_premium",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "is_premium",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "is_premium"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "row": 13,
+          "column": 2,
+          "bbox": [
+            911.44,
+            533.49,
+            252.43,
+            43.52
+          ],
+          "text": "boolean",
+          "textPreview": "boolean",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "boolean",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "boolean",
+                  "alignment": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "row": 14,
+          "column": 1,
+          "bbox": [
+            524.54,
+            577.01,
+            386.91,
+            43.52
+          ],
+          "text": "is_unviewed_notification",
+          "textPreview": "is_unviewed_notification",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "is_unviewed_notification",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "is_unviewed_notification",
+                  "fontSize": 24,
+                  "typeface": "+mn-lt",
+                  "color": "tx1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "row": 14,
+          "column": 2,
+          "bbox": [
+            911.44,
+            577.01,
+            252.43,
+            43.52
+          ],
+          "text": "boolean",
+          "textPreview": "boolean",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "boolean",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "boolean",
+                  "alignment": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "row": 15,
+          "column": 1,
+          "bbox": [
+            524.54,
+            620.54,
+            386.91,
+            43.52
+          ],
+          "text": "is_already_registered",
+          "textPreview": "is_already_registered",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "is_already_registered",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "is_already_registered",
+                  "fontSize": 24,
+                  "typeface": "+mn-lt",
+                  "color": "tx1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "row": 15,
+          "column": 2,
+          "bbox": [
+            911.44,
+            620.54,
+            252.43,
+            43.52
+          ],
+          "text": "boolean",
+          "textPreview": "boolean",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "boolean",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "boolean",
+                  "alignment": "left"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "composeRuns": []
+}
